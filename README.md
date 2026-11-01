@@ -10,10 +10,10 @@
 
 | Integrante | Parte | Script |
 |---|---|---|
-| Benjamín Vidal | Diagnóstico inicial | `scripts/01_diagnostico.R` |
+| Benjamín Vidal | Diagnóstico, introducción y referencias | `scripts/01_diagnostico.R` |
 | Amanda Cáceres | Limpieza de datos | `scripts/02_limpieza.R` |
 | Abraham Grundt | Pipeline y normalización | `scripts/03_transformacion.R` |
-| Benjamín Cifuentes | Validación e informe | `scripts/04_validacion.R` |
+| Benjamín Cifuentes | Validación, conclusión y unión del informe | `scripts/04_validacion.R` |
 
 ## Estructura
 
