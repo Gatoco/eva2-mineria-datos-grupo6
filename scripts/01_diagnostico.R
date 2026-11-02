@@ -1,14 +1,29 @@
-# ============================================================
-# 01_diagnostico.R  |  Responsable: Benjamín Vidal
-# Etapa 1: carga y diagnóstico inicial
-# Entrada : data/raw/pacientes.csv (NO se modifica)
-# Salida  : solo diagnóstico (capturas + tabla de hallazgos en evidencias/vidal/)
-# ============================================================
+# Instalación de paquetes necesarios
+install.packages("dplyr")
 
 library(dplyr)
 
-datos <- read.csv("data/raw/pacientes.csv")  # separado por coma
 
-# TODO: dim/nrow/ncol, str/class/summary/head, estadísticas descriptivas,
-#       NA y vacíos por columna, duplicados (fila completa y por id_paciente),
-#       valores imposibles, fechas inválidas, textos inconsistentes.
+#Cargar o leer CSV
+DatosPacientes <- read.csv(file.choose())
+
+str(DatosPacientes)
+
+summary(DatosPacientes)
+
+colSums(is.na(DatosPacientes))
+
+sum(duplicated(DatosPacientes))
+
+DP_Limpios <- DatosPacientes %>%
+  
+  filter.(is.na(edad)) %>%
+  mutate(grupo_etario = case_when(
+    edad < 18 ~ "Menor de edad",
+    edad < 65 ~ "Adulto",
+    TRUE ~ "Adulto mayor"
+  ),
+  costo_std = as.numeric(scale(costo_atencion))
+  ) %>%
+  arrange(desc(dias_hospitalizacion))
+  
