@@ -3,8 +3,8 @@ rm(list = ls())
 
 library(dplyr)
 
-# Cargar dataset con ruta corregida usando barras hacia adelante (/)
-df <- read.csv("C:/Users/amand/Downloads/pacientes-scr/pacientes.csv", header = TRUE, stringsAsFactors = FALSE, fileEncoding = "UTF-8")
+# Cargar dataset (ruta relativa a la carpeta del proyecto)
+df <- read.csv("data/raw/pacientes.csv", header = TRUE, stringsAsFactors = FALSE, fileEncoding = "UTF-8")
 df <- as.data.frame(df)
 
 cat("\n--- 1. DIAGNÓSTICO INICIAL ---\n")
@@ -32,10 +32,14 @@ df_modif <- df_limpio %>%
     comuna = as.factor(comuna),
     
     # Limpiar diagnostico_principal
-    diagnostico_principal = as.factor(trimws(tolower(as.character(diagnostico_principal)))),
+    diagnostico_principal = trimws(tolower(as.character(diagnostico_principal))),
+    diagnostico_principal = ifelse(diagnostico_principal == "neumonia", "neumonía", diagnostico_principal),
+    diagnostico_principal = as.factor(na_if(diagnostico_principal, "")),
     
     # Validar y convertir fecha_ultima_atencion
-    fecha_ultima_atencion = as.Date(fecha_ultima_atencion, format = "%Y-%m-%d")
+    fecha_ultima_atencion = as.Date(fecha_ultima_atencion, format = "%Y-%m-%d"),
+    # Fechas futuras no son válidas: se marcan como NA
+    fecha_ultima_atencion = if_else(fecha_ultima_atencion > Sys.Date(), as.Date(NA), fecha_ultima_atencion)
   ) %>%
   # validación: edad lógica, costos no negativos y comuna no vacía
   filter(
