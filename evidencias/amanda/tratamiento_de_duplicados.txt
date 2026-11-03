@@ -1,0 +1,33 @@
+1. Tratamiento de duplicados:
+
+Criterio: Se aplicó una doble validación mediante distinct() para remover filas completamente idénticas, seguida de un filtrado condicional por id_paciente (distinct(id_paciente, .keep_all = TRUE)) para conservar únicamente el primer registro válido asociado a cada identificador único de paciente, eliminando duplicaciones espurias por errores de carga o doble ingreso.
+
+Evidencia: La consola registró la reducción exacta de registros, confirmando la depuración del conjunto de datos.
+
+2. Valores faltantes y trazabilidad de filas:
+
+Criterio: Se estableció un flujo de diagnóstico previo que cuantificó los nulos por columna (colSums(is.na(df))) y se aplicó un filtrado estricto (filter) para excluir registros con vacíos críticos en variables estructurantes (edad, comuna, costo_atencion). Se documentó formalmente el conteo inicial y final de filas (nrow()) para medir el impacto de la pérdida de datos.
+
+Evidencia: Las impresiones de consola muestran las dimensiones iniciales y finales, garantizando la transparencia del volumen de datos conservados.
+
+3. Limpieza y estandarización de diagnostico_principal:
+
+Criterio: La variable categórica presentaba inconsistencias tipográficas y espacios residuales. Se unificó el formato convirtiendo todos los textos a minúsculas y removiendo espacios laterales (tolower(trimws(...))), transformándola posteriormente en un objeto de tipo factor (as.factor()) para su correcto tratamiento en análisis posteriores.
+
+Evidencia: Consolidación de las categorías de diagnóstico sin duplicar términos por variaciones de mayúsculas.
+
+4. Conversión y validación de fecha_ultima_atencion:
+
+Criterio: El campo de fecha original se encontraba en formato de texto plano. Se transformó al tipo de datos de fecha estándar (as.Date()) bajo el formato estricto YYYY-MM-DD, permitiendo validar que las marcas temporales correspondieran a estructuras cronológicas válidas.
+
+Evidencia: Conversión exitosa sin introducir errores de coerción en las observaciones válidas.
+
+5. Tratamiento de costos negativos y extracción numérica:
+
+Criterio: Para la variable costo_atencion, se normalizó el separador decimal (reemplazando comas por puntos mediante gsub()) antes de realizar la conversión a numérico, evitando pérdidas masivas de datos en NA. Asimismo, se implementó un filtro explícito (costo_atencion >= 0) para erradicar registros con costos anómalos o negativos que falsearían los indicadores de media y desviación estándar.
+
+Evidencia: Ejecución limpia del pipeline matemático y correcto cálculo del costo promedio por grupo etario y comuna.
+
+6. Exportación del dataset procesado (pacientes_limpio.csv):
+
+Criterio: Una vez completadas las etapas de diagnóstico, limpieza y transformación estadística, se procedió a la exportación del dataframe final utilizando la función write.csv2(). Esto asegura la persistencia de los datos limpios para futuros reportes o modelos analíticos.
