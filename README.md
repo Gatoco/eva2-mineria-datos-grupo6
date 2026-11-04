@@ -1,26 +1,23 @@
-# Evaluación Sumativa 2 — Limpieza de datos en R
+# EV2 Minería de Datos (TI3061) · Grupo 6
 
-- **Asignatura:** Minería de Datos (TI3061)
-- **Docente:** Oscar Rodríguez Mendoza
-- **Institución:** INACAP, Sede Talca
-- **Grupo:** 6
-- **Entrega:** 3 de noviembre de 2026, 23:00
+Limpieza, transformación y validación del dataset de pacientes en R.
 
-## Integrantes
+**Integrantes:** Benjamín Vidal · Amanda Cáceres · Abraham Grundt · Benjamín Cifuentes
+**Docente:** Oscar Rodríguez Mendoza · INACAP Talca
 
-| Integrante | Parte | Script |
-|---|---|---|
-| Benjamín Vidal | Diagnóstico, introducción y referencias | `scripts/01_diagnostico.R` |
-| Amanda Cáceres | Limpieza de datos | `scripts/02_limpieza.R` |
-| Abraham Grundt | Pipeline y normalización | `scripts/03_transformacion.R` |
-| Benjamín Cifuentes | Validación, conclusión y unión del informe | `scripts/04_validacion.R` |
+## Archivos
 
-## Estructura
+| Archivo | Qué es |
+|---|---|
+| `Grupo6_script_limpieza_pacientes.R` | script completo, de la carga a la exportación |
+| `data/raw/pacientes.csv` | dataset original |
+| `data/processed/pacientes_final.csv` | dataset final limpio y transformado |
+| `scripts/01_diagnostico.R` … `04_validacion.R` | el mismo script separado por etapa |
 
-```
-data/raw/        dataset original (pacientes.csv)
-data/processed/  datasets limpio, transformado y final
-scripts/         código R por integrante
-evidencias/      capturas y explicaciones por integrante
-informe/         informe final
-```
+## Cómo correrlo
+
+1. Abrir RStudio y elegir *Session > Set Working Directory > Choose Directory…* con esta carpeta.
+2. Instalar dplyr una vez: `install.packages("dplyr")`.
+3. Abrir `Grupo6_script_limpieza_pacientes.R` y ejecutar todo.
+
+Resultado: 1100 filas originales → 912 filas finales (100 duplicadas y 88 sin edad válida).

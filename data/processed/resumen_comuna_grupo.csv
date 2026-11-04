@@ -1,0 +1,28 @@
+"comuna","grupo_etario","total_pacientes","promedio_hospitalizacion","mediana_hospitalizacion","costo_promedio"
+"talca","Adulto",104,13.9,13,472119
+"san javier","Adulto",72,13.9,15,461774
+"curico","Adulto",66,12.3,13,507405
+"cauquenes","Adulto",64,14.1,13,486933
+"linares","Adulto",59,12.9,13,449963
+"talca","Adulto mayor",50,10.9,10.5,512300
+"linares","Adulto mayor",43,12.7,14,482561
+"curico","Adulto mayor",41,11.7,13,463015
+"san javier","Adulto mayor",37,11.2,11,525631
+"cauquenes","Adulto mayor",36,11.8,12.5,466146
+"parral","Adulto",32,14.3,14.5,483799
+"sin dato","Adulto",32,10.8,10,510650
+"molina","Adulto",31,12.4,13,484550
+"constitucion","Adulto",30,12,12.5,413828
+"talca","Menor de edad",28,11.6,11.5,512637
+"cauquenes","Menor de edad",24,13.7,13,502179
+"san javier","Menor de edad",21,10.1,7,466922
+"molina","Adulto mayor",20,13.2,13,457233
+"sin dato","Adulto mayor",20,12.5,12.5,500145
+"curico","Menor de edad",19,16.2,19,415099
+"parral","Adulto mayor",17,13,14,377161
+"linares","Menor de edad",16,12.9,12,442129
+"constitucion","Adulto mayor",13,14.7,15,566313
+"parral","Menor de edad",11,12.5,13,459626
+"molina","Menor de edad",10,12.4,12.5,545811
+"constitucion","Menor de edad",9,16.1,19,418555
+"sin dato","Menor de edad",7,15.6,16,443782

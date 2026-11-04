@@ -1,709 +1,913 @@
-"id_paciente";"edad";"comuna";"diagnostico_principal";"cantidad_consultas";"dias_hospitalizacion";"fecha_ultima_atencion";"costo_atencion"
-"PAC-0911";68;"talca";"asma";26;21;2024-02-25;672039
-"PAC-0381";94;"san javier";"";7;11;2025-12-07;701903
-"PAC-0248";69;"san javier";"neumonia";15;5;2023-08-01;880928
-"PAC-0825";49;"linares";"traumatismo";22;NA;2023-08-09;570351
-"PAC-0090";41;"curico";"hipertensión";10;10;2024-03-15;196741
-"PAC-0842";36;"molina";"neumonia";30;17;2023-07-21;102240
-"PAC-0944";41;"curico";"neumonía";2;20;2025-01-13;646944
-"PAC-0703";56;"cauquenes";"traumatismo";17;19;2024-10-20;540974
-"PAC-0446";4;"san javier";"neumonia";1;25;NA;208533
-"PAC-0122";75;"san javier";"";19;24;2023-01-21;214063
-"PAC-0393";49;"talca";"traumatismo";5;13;2023-10-04;745495
-"PAC-0318";81;"parral";"traumatismo";26;23;2022-01-22;372861
-"PAC-0497";82;"talca";"asma";18;2;NA;806833
-"PAC-0613";84;"cauquenes";"hipertensión";16;24;2022-12-19;919268
-"PAC-0447";63;"talca";"hipertensión";1;6;2023-04-19;105964
-"PAC-0543";73;"linares";"traumatismo";6;12;2025-12-10;337499
-"PAC-0573";69;"talca";"hipertensión";12;22;2023-03-28;804167
-"PAC-0086";51;"talca";"neumonia";9;22;2025-09-26;526148
-"PAC-0341";51;"linares";"traumatismo";27;23;2022-04-12;189603
-"PAC-0472";33;"molina";"hipertensión";28;9;2023-01-11;295067
-"PAC-0189";95;"curico";"diabetes";13;23;2023-04-08;705009
-"PAC-0929";11;"san javier";"neumonía";1;4;2023-05-17;286173
-"PAC-0504";36;"curico";"asma";21;19;2024-03-04;843878
-"PAC-0750";49;"curico";"asma";9;1;2025-08-25;613906
-"PAC-0882";28;"san javier";"asma";16;10;2024-10-25;613205
-"PAC-0456";26;"linares";"hipertensión";25;21;2023-08-07;341516
-"PAC-0614";22;"linares";"asma";23;16;2022-09-11;921105
-"PAC-0857";70;"talca";"asma";28;13;NA;58488
-"PAC-0771";28;"curico";"asma";13;7;2023-01-08;703436
-"PAC-0461";15;"curico";"hipertensión";21;6;NA;232692
-"PAC-0672";84;"curico";"neumonía";24;5;2023-12-02;660598
-"PAC-0420";84;"san javier";"traumatismo";24;2;2022-09-08;261084
-"PAC-0329";53;"linares";"diabetes";15;6;NA;360002
-"PAC-0724";86;"cauquenes";"hipertensión";21;12;NA;50640
-"PAC-0213";22;"talca";"neumonia";4;NA;2025-07-16;923034
-"PAC-0745";38;"linares";"hipertensión";5;23;2023-10-27;113110
-"PAC-0590";27;"curico";"";9;17;2023-10-02;673208
-"PAC-0074";82;"san javier";"diabetes";17;3;2023-07-12;620634
-"PAC-0001";15;"cauquenes";"";7;8;2024-01-27;846150
-"PAC-0140";85;"molina";"traumatismo";11;1;2023-09-18;174069
-"PAC-0437";4;"talca";"diabetes";5;3;2024-03-12;177612
-"PAC-0527";0;"san javier";"traumatismo";23;9;2023-10-18;525988
-"PAC-0892";93;"parral";"asma";12;0;2023-05-21;254757
-"PAC-0642";47;"parral";"diabetes";14;15;NA;612820
-"PAC-0840";47;"talca";"diabetes";18;NA;2023-01-01;636024
-"PAC-0691";31;"parral";"neumonia";8;25;NA;36248
-"PAC-0599";77;"molina";"diabetes";21;7;2024-12-26;768871
-"PAC-0073";68;"talca";"hipertensión";6;4;NA;346079
-"PAC-0811";65;"talca";"traumatismo";21;23;2024-08-05;241048
-"PAC-0947";54;"talca";"hipertensión";10;7;NA;98376
-"PAC-0789";21;"parral";"diabetes";5;19;2023-02-09;305139
-"PAC-0307";49;"constitucion";"diabetes";22;6;2022-04-06;867105
-"PAC-0390";93;"curico";"traumatismo";20;3;2024-10-26;807050
-"PAC-0715";43;"constitucion";"diabetes";30;16;2025-04-19;232301
-"PAC-0294";82;"constitucion";"diabetes";29;21;NA;339276
-"PAC-0565";21;"linares";"neumonia";20;24;NA;447229
-"PAC-0470";84;"curico";"neumonía";5;23;2023-04-14;134893
-"PAC-0190";42;"cauquenes";"neumonia";11;21;2031-01-01;608301
-"PAC-0720";12;"san javier";"diabetes";14;4;NA;671789
-"PAC-0871";17;"san javier";"asma";16;NA;2025-03-02;622273
-"PAC-0982";39;"constitucion";"traumatismo";11;7;2022-07-12;538078
-"PAC-0685";34;"linares";"traumatismo";3;20;2024-03-13;779839
-"PAC-0880";91;"constitucion";"hipertensión";30;23;2023-04-26;698131
-"PAC-0336";14;"cauquenes";"neumonia";6;2;2024-07-04;455689
-"PAC-0708";84;"san javier";"neumonía";1;NA;2025-06-03;393206
-"PAC-0191";30;"curico";"neumonia";22;17;2025-03-23;249472
-"PAC-0491";15;"molina";"neumonia";29;6;2024-11-24;338427
-"PAC-0874";34;"curico";"asma";19;5;NA;320191
-"PAC-0681";55;"curico";"traumatismo";15;3;2022-10-14;45960
-"PAC-0203";12;"constitucion";"diabetes";4;20;2031-01-01;371772
-"PAC-0102";13;"talca";"asma";26;9;NA;582364
-"PAC-0177";53;"molina";"diabetes";6;16;2023-04-15;789164
-"PAC-0014";32;"cauquenes";"asma";30;8;2025-07-02;381272
-"PAC-0641";75;"molina";"";1;12;NA;253471
-"PAC-0919";24;"san javier";"neumonia";21;12;2025-11-10;643069
-"PAC-0812";45;"talca";"";8;21;2023-12-21;657940
-"PAC-0664";24;"curico";"hipertensión";17;11;2022-06-11;364830
-"PAC-1000";43;"linares";"diabetes";22;7;NA;406701
-"PAC-0636";56;"curico";"neumonia";12;20;NA;513532
-"PAC-0416";24;"parral";"neumonía";6;19;NA;489059
-"PAC-0887";70;"linares";"traumatismo";20;6;2025-03-11;550877
-"PAC-0922";26;"molina";"diabetes";26;11;2024-11-11;551935
-"PAC-0340";15;"san javier";"neumonía";11;2;2024-04-05;823910
-"PAC-0100";54;"constitucion";"traumatismo";21;22;2023-11-07;429199
-"PAC-0084";42;"cauquenes";"";20;4;NA;768638
-"PAC-0569";34;"san javier";"traumatismo";14;9;2023-02-16;84350
-"PAC-0351";44;"san javier";"asma";30;8;2022-08-04;799480
-"PAC-0419";67;"cauquenes";"neumonia";5;10;2025-09-20;61179
-"PAC-0868";62;"constitucion";"traumatismo";1;9;2024-06-11;242413
-"PAC-0955";20;"san javier";"asma";2;0;2023-01-06;226159
-"PAC-0756";22;"san javier";"asma";20;9;2024-07-24;245251
-"PAC-0145";76;"cauquenes";"";27;0;2031-01-01;464848
-"PAC-0841";7;"curico";"asma";14;25;2022-08-15;43892
-"PAC-0594";77;"cauquenes";"asma";3;24;NA;753681
-"PAC-0568";33;"linares";"diabetes";19;11;NA;864216
-"PAC-0690";33;"talca";"hipertensión";20;3;2024-05-09;247602
-"PAC-0753";29;"san javier";"asma";25;15;NA;714948
-"PAC-0296";62;"molina";"diabetes";19;4;2024-02-22;306056
-"PAC-0716";79;"linares";"traumatismo";2;20;2022-09-02;30927
-"PAC-0405";68;"cauquenes";"asma";10;1;2023-06-14;74508
-"PAC-0616";79;"cauquenes";"asma";12;8;2022-04-06;31985
-"PAC-0503";40;"cauquenes";"neumonía";3;25;NA;831236
-"PAC-0457";75;"cauquenes";"diabetes";12;15;2025-07-17;76728
-"PAC-0743";46;"cauquenes";"neumonia";26;19;2024-03-27;827026
-"PAC-0667";11;"linares";"traumatismo";14;15;2025-05-14;272255
-"PAC-0041";50;"talca";"neumonia";26;21;2024-05-03;883219
-"PAC-0032";6;"talca";"hipertensión";9;5;NA;369841
-"PAC-0662";53;"parral";"asma";7;5;NA;805138
-"PAC-0357";29;"talca";"asma";13;NA;2022-07-28;675032
-"PAC-0075";83;"linares";"hipertensión";26;2;NA;483781
-"PAC-0059";47;"cauquenes";"traumatismo";1;24;NA;181760
-"PAC-0965";34;"cauquenes";"hipertensión";5;7;2024-10-14;533843
-"PAC-0048";51;"cauquenes";"traumatismo";1;1;2024-10-09;351370
-"PAC-0654";92;"parral";"neumonia";9;18;NA;93885
-"PAC-0759";91;"san javier";"";10;13;2023-06-16;554679
-"PAC-0593";42;"talca";"diabetes";18;0;NA;191780
-"PAC-0816";73;"talca";"asma";24;20;2025-10-20;77473
-"PAC-0981";87;"linares";"asma";26;18;2022-01-09;701870
-"PAC-0718";21;"talca";"traumatismo";14;6;2024-10-21;264322
-"PAC-0008";4;"curico";"asma";1;15;2024-06-23;933566
-"PAC-0670";19;"linares";"diabetes";2;5;NA;942247
-"PAC-0429";90;"cauquenes";"hipertensión";5;12;2024-12-23;775879
-"PAC-0866";8;"molina";"hipertensión";2;NA;2022-10-03;723745
-"PAC-0988";81;"curico";"hipertensión";5;9;NA;246534
-"PAC-0481";61;"linares";"asma";22;19;2025-04-27;130164
-"PAC-0011";15;"linares";"diabetes";4;7;2031-01-01;213530
-"PAC-0466";71;"talca";"neumonía";17;8;NA;233885
-"PAC-0774";8;"curico";"neumonia";8;2;2024-09-20;127525
-"PAC-0015";38;"cauquenes";"hipertensión";15;15;2025-02-03;125650
-"PAC-0854";51;"talca";"asma";24;NA;2023-02-03;581067
-"PAC-0065";63;"san javier";"asma";28;6;2022-03-20;50092
-"PAC-0529";62;"parral";"neumonía";28;NA;2022-09-21;207398
-"PAC-0359";11;"cauquenes";"";21;11;2024-06-18;665439
-"PAC-0104";54;"constitucion";"traumatismo";16;NA;2024-02-23;82138
-"PAC-0119";88;"constitucion";"traumatismo";26;25;2024-02-05;883199
-"PAC-0373";18;"molina";"traumatismo";25;3;2025-06-15;759507
-"PAC-0095";11;"cauquenes";"neumonía";11;25;2024-02-14;126179
-"PAC-0865";92;"constitucion";"hipertensión";12;12;2023-12-16;789965
-"PAC-0415";44;"talca";"asma";15;NA;2023-07-11;574157
-"PAC-0528";26;"molina";"traumatismo";29;7;NA;306825
-"PAC-0131";42;"linares";"";22;9;NA;301459
-"PAC-0467";3;"parral";"";15;13;2023-05-26;202462
-"PAC-0283";55;"linares";"hipertensión";27;10;2023-09-01;143912
-"PAC-0028";51;"talca";"asma";2;22;2024-08-11;204134
-"PAC-0193";72;"curico";"hipertensión";30;NA;2024-08-21;679865
-"PAC-0808";7;"cauquenes";"neumonía";18;21;NA;39496
-"PAC-0551";14;"parral";"hipertensión";30;16;2022-09-08;648631
-"PAC-0096";74;"parral";"asma";30;23;NA;535862
-"PAC-0185";5;"talca";"hipertensión";17;17;2022-05-06;29166
-"PAC-0926";55;"cauquenes";"diabetes";6;10;2025-12-18;519339
-"PAC-0608";16;"talca";"asma";10;10;2022-06-17;381798
-"PAC-0387";86;"linares";"hipertensión";9;0;2025-01-05;703277
-"PAC-0453";41;"san javier";"neumonía";9;10;NA;98857
-"PAC-0570";37;"talca";"hipertensión";9;2;2031-01-01;755589
-"PAC-0483";28;"san javier";"hipertensión";4;16;NA;356860
-"PAC-0486";35;"talca";"";21;18;NA;93280
-"PAC-0179";60;"talca";"diabetes";22;0;NA;889258
-"PAC-0317";24;"talca";"diabetes";4;0;2024-09-02;591033
-"PAC-0518";58;"curico";"neumonía";11;2;2024-04-24;247111
-"PAC-0130";13;"talca";"neumonía";22;22;NA;942947
-"PAC-0733";40;"molina";"diabetes";22;25;2024-02-12;513501
-"PAC-0241";79;"talca";"";26;2;2023-06-17;343433
-"PAC-0117";16;"cauquenes";"asma";21;1;NA;524278
-"PAC-0748";38;"talca";"traumatismo";15;0;2025-11-16;363077
-"PAC-0006";44;"linares";"neumonía";2;15;2023-04-19;114222
-"PAC-0625";85;"constitucion";"hipertensión";21;1;2023-05-14;846756
-"PAC-0735";57;"san javier";"asma";20;22;2022-03-26;594342
-"PAC-0746";69;"san javier";"hipertensión";10;20;2025-10-07;807593
-"PAC-0376";92;"talca";"diabetes";4;23;2025-02-02;424286
-"PAC-0500";23;"constitucion";"asma";4;15;2025-06-08;458991
-"PAC-0250";30;"talca";"asma";6;14;2023-12-01;756691
-"PAC-0797";54;"talca";"hipertensión";12;NA;2024-08-16;522345
-"PAC-0819";84;"molina";"hipertensión";3;21;2022-11-15;510579
-"PAC-0823";70;"curico";"neumonia";27;23;2024-09-24;519621
-"PAC-0013";56;"cauquenes";"neumonía";10;11;2024-02-15;258927
-"PAC-0040";36;"talca";"traumatismo";16;20;2023-07-13;533296
-"PAC-0852";12;"constitucion";"diabetes";6;2;2022-09-08;316483
-"PAC-0392";63;"talca";"diabetes";9;24;2022-06-02;458250
-"PAC-0936";23;"talca";"hipertensión";20;19;2024-02-22;272938
-"PAC-0923";39;"san javier";"diabetes";3;19;2031-01-01;154052
-"PAC-0946";78;"molina";"diabetes";4;0;NA;419520
-"PAC-0253";40;"cauquenes";"";3;8;2022-12-12;533659
-"PAC-0263";59;"linares";"asma";3;16;2024-02-08;906875
-"PAC-0198";21;"talca";"asma";20;24;NA;140393
-"PAC-0133";79;"talca";"asma";29;8;2025-02-10;388351
-"PAC-0313";75;"molina";"neumonía";18;6;NA;436305
-"PAC-0443";47;"cauquenes";"hipertensión";26;23;NA;170150
-"PAC-0688";76;"linares";"";19;10;2024-10-01;110837
-"PAC-0459";9;"talca";"";8;0;2024-07-17;419350
-"PAC-0533";68;"parral";"hipertensión";20;NA;NA;251422
-"PAC-0507";67;"san javier";"hipertensión";26;1;NA;865003
-"PAC-0883";65;"curico";"hipertensión";28;22;NA;251143
-"PAC-0709";17;"constitucion";"asma";4;21;2024-12-28;582221
-"PAC-0673";44;"constitucion";"diabetes";24;23;2025-05-14;68719
-"PAC-0034";70;"curico";"neumonia";24;23;2022-05-01;450958
-"PAC-0710";50;"curico";"diabetes";14;NA;2023-11-08;680017
-"PAC-0550";38;"linares";"hipertensión";22;13;2025-10-19;745645
-"PAC-0107";48;"cauquenes";"neumonia";20;13;2024-06-08;911963
-"PAC-0291";75;"parral";"";4;4;2023-06-10;306802
-"PAC-0783";66;"san javier";"neumonia";13;24;2025-01-26;244403
-"PAC-0588";18;"san javier";"diabetes";26;15;2023-10-08;937793
-"PAC-0531";68;"parral";"neumonía";17;23;2024-02-15;553842
-"PAC-0109";22;"curico";"neumonia";29;25;2024-06-17;408802
-"PAC-0021";11;"curico";"traumatismo";10;15;2025-11-08;679842
-"PAC-0406";87;"linares";"";2;22;2025-06-19;62806
-"PAC-0197";15;"cauquenes";"";17;14;2025-04-24;306144
-"PAC-0121";35;"talca";"diabetes";30;21;2023-11-07;826514
-"PAC-0092";36;"talca";"diabetes";7;13;2024-02-25;300707
-"PAC-0612";4;"san javier";"neumonia";14;NA;2024-06-21;372699
-"PAC-0326";68;"parral";"diabetes";27;22;NA;95475
-"PAC-0761";5;"curico";"";30;6;2025-06-14;129695
-"PAC-0788";88;"cauquenes";"diabetes";16;3;2023-11-07;928592
-"PAC-0227";43;"cauquenes";"diabetes";27;25;NA;465512
-"PAC-0671";15;"linares";"diabetes";22;0;2031-01-01;319520
-"PAC-0772";88;"san javier";"neumonía";25;10;2024-09-03;133329
-"PAC-0231";89;"talca";"asma";8;5;2022-12-18;362382
-"PAC-0303";84;"linares";"hipertensión";25;25;2025-02-09;705763
-"PAC-0257";15;"talca";"asma";1;21;2024-03-23;542795
-"PAC-0281";28;"cauquenes";"neumonia";3;23;2022-12-14;879435
-"PAC-0536";31;"san javier";"asma";5;NA;2024-11-25;370741
-"PAC-0519";35;"parral";"diabetes";26;23;NA;815926
-"PAC-0632";1;"cauquenes";"asma";22;13;2022-11-17;412782
-"PAC-0243";2;"constitucion";"asma";24;23;NA;278032
-"PAC-0160";16;"talca";"diabetes";1;2;2024-11-14;860034
-"PAC-0306";90;"san javier";"hipertensión";9;14;2023-02-12;924402
-"PAC-0356";86;"linares";"diabetes";22;11;2022-05-24;916235
-"PAC-0284";58;"talca";"neumonia";8;1;NA;412849
-"PAC-0111";74;"san javier";"diabetes";12;15;NA;850162
-"PAC-0232";25;"cauquenes";"asma";1;23;NA;863330
-"PAC-0694";34;"talca";"diabetes";22;1;2022-05-25;476582
-"PAC-0490";64;"curico";"asma";23;0;2024-12-17;277530
-"PAC-0327";59;"curico";"asma";17;6;2023-07-18;461248
-"PAC-0747";0;"constitucion";"asma";3;19;NA;143787
-"PAC-0782";32;"cauquenes";"traumatismo";26;6;NA;299225
-"PAC-0063";6;"san javier";"diabetes";20;3;NA;741713
-"PAC-0971";19;"linares";"";18;2;2025-08-10;79438
-"PAC-0678";88;"curico";"neumonia";9;16;NA;95741
-"PAC-0638";29;"cauquenes";"neumonía";28;12;2022-10-03;275275
-"PAC-0450";15;"talca";"neumonía";12;12;2025-01-14;939024
-"PAC-0398";38;"curico";"hipertensión";9;NA;NA;835072
-"PAC-0976";64;"molina";"diabetes";1;16;NA;301600
-"PAC-0542";3;"constitucion";"hipertensión";23;NA;2022-07-12;580335
-"PAC-0027";30;"talca";"diabetes";5;23;2022-01-11;600828
-"PAC-0222";46;"curico";"traumatismo";10;23;2025-09-08;466973
-"PAC-0796";55;"curico";"hipertensión";28;23;NA;250821
-"PAC-0704";47;"talca";"traumatismo";2;21;NA;300341
-"PAC-0927";75;"constitucion";"diabetes";12;10;2023-10-11;560009
-"PAC-0845";28;"san javier";"neumonia";22;18;2025-12-16;838226
-"PAC-0861";44;"linares";"neumonia";22;25;2023-11-02;209885
-"PAC-0440";84;"linares";"asma";6;1;2025-07-02;80564
-"PAC-0168";5;"curico";"traumatismo";22;25;2022-11-13;743634
-"PAC-0056";93;"constitucion";"asma";7;12;2022-09-03;739866
-"PAC-0751";7;"parral";"hipertensión";6;6;2031-01-01;575615
-"PAC-0711";51;"san javier";"hipertensión";3;6;NA;680606
-"PAC-0956";65;"san javier";"neumonía";3;10;2022-12-17;33363
-"PAC-0088";82;"curico";"diabetes";30;15;2023-06-13;693187
-"PAC-0668";14;"cauquenes";"";5;23;2023-03-18;943813
-"PAC-0853";82;"linares";"asma";11;3;2024-10-14;807132
-"PAC-0822";57;"cauquenes";"diabetes";18;22;2025-08-06;495888
-"PAC-0598";31;"linares";"asma";20;25;2023-01-15;32973
-"PAC-0629";94;"constitucion";"neumonia";23;4;2023-03-17;865027
-"PAC-0677";69;"talca";"hipertensión";8;1;NA;700250
-"PAC-0087";22;"talca";"diabetes";8;8;2024-06-12;369507
-"PAC-0498";27;"linares";"asma";18;17;2025-12-27;799889
-"PAC-0480";54;"san javier";"neumonia";28;16;2023-02-13;154417
-"PAC-0728";24;"curico";"neumonia";3;4;NA;458060
-"PAC-0581";84;"linares";"neumonia";17;6;2024-02-24;299785
-"PAC-0397";58;"talca";"asma";2;NA;2022-06-12;74733
-"PAC-0476";42;"san javier";"hipertensión";17;2;2022-11-14;59704
-"PAC-0311";25;"san javier";"asma";27;6;NA;526778
-"PAC-0615";31;"constitucion";"hipertensión";23;8;2025-04-06;218069
-"PAC-0910";17;"molina";"neumonía";30;5;NA;37696
-"PAC-0201";75;"linares";"neumonia";24;20;2023-12-28;308183
-"PAC-0239";35;"talca";"hipertensión";26;4;2024-07-08;321153
-"PAC-0417";48;"constitucion";"traumatismo";5;20;2024-11-26;769044
-"PAC-0152";39;"parral";"traumatismo";19;25;2023-11-17;87707
-"PAC-0033";20;"molina";"asma";18;19;2023-03-20;266303
-"PAC-0714";17;"talca";"neumonía";19;NA;2023-12-06;796532
-"PAC-0408";47;"curico";"hipertensión";1;3;2024-12-21;893378
-"PAC-0939";82;"linares";"hipertensión";28;17;NA;582918
-"PAC-0089";41;"parral";"traumatismo";30;18;2023-10-16;321949
-"PAC-0646";7;"linares";"hipertensión";1;11;2022-06-23;238346
-"PAC-0004";66;"molina";"diabetes";6;24;2023-10-18;709377
-"PAC-0338";62;"talca";"hipertensión";10;6;NA;122466
-"PAC-0019";1;"cauquenes";"diabetes";29;10;2025-07-17;732579
-"PAC-0221";29;"san javier";"neumonia";21;3;2022-03-20;419346
-"PAC-0905";80;"curico";"diabetes";5;4;NA;48618
-"PAC-0515";61;"san javier";"asma";10;2;2023-06-09;151455
-"PAC-0422";3;"linares";"diabetes";2;2;2022-05-14;264010
-"PAC-0060";66;"talca";"traumatismo";27;12;2025-02-02;615498
-"PAC-0540";68;"parral";"neumonia";8;20;2022-10-10;218154
-"PAC-0943";22;"linares";"neumonía";11;1;2023-04-14;864123
-"PAC-0945";80;"talca";"asma";4;1;2022-01-22;883160
-"PAC-0106";12;"curico";"hipertensión";4;19;2024-01-06;459671
-"PAC-0252";67;"linares";"asma";30;1;NA;274974
-"PAC-0806";78;"talca";"diabetes";24;14;2022-07-09;667393
-"PAC-0934";84;"curico";"diabetes";1;NA;2022-09-17;326852
-"PAC-0345";11;"cauquenes";"hipertensión";17;21;NA;772649
-"PAC-0025";15;"talca";"asma";22;18;2025-10-11;439248
-"PAC-0016";42;"talca";"asma";20;NA;2023-03-24;706454
-"PAC-0895";24;"talca";"";20;12;2025-01-12;733838
-"PAC-0755";4;"san javier";"hipertensión";20;1;2024-03-20;56430
-"PAC-0431";15;"linares";"diabetes";18;7;NA;381609
-"PAC-0917";15;"linares";"";22;24;NA;128927
-"PAC-0760";49;"constitucion";"traumatismo";14;16;2031-01-01;166559
-"PAC-0687";9;"linares";"neumonía";14;18;2025-06-08;544633
-"PAC-0697";57;"curico";"neumonia";17;3;NA;761697
-"PAC-0367";23;"san javier";"diabetes";10;25;NA;904162
-"PAC-0712";39;"talca";"diabetes";21;11;NA;716537
-"PAC-0675";60;"cauquenes";"hipertensión";22;12;2023-07-28;783231
-"PAC-0610";10;"constitucion";"asma";12;10;NA;737675
-"PAC-0269";31;"curico";"diabetes";9;5;2022-02-08;783214
-"PAC-0206";65;"talca";"hipertensión";1;23;NA;309270
-"PAC-0741";49;"san javier";"diabetes";9;14;NA;128903
-"PAC-0942";58;"linares";"hipertensión";5;1;2024-05-09;583313
-"PAC-0921";73;"linares";"asma";11;19;2025-09-05;441886
-"PAC-0583";92;"curico";"traumatismo";18;14;NA;409431
-"PAC-0413";25;"linares";"diabetes";29;3;2024-12-05;652989
-"PAC-0242";11;"cauquenes";"";3;24;NA;750334
-"PAC-0421";58;"cauquenes";"asma";6;24;2024-07-23;530061
-"PAC-0223";83;"cauquenes";"asma";28;0;2023-11-07;79135
-"PAC-0928";71;"talca";"hipertensión";25;6;2025-08-20;932460
-"PAC-0777";47;"talca";"";7;25;2025-10-04;525030
-"PAC-0951";3;"talca";"hipertensión";4;25;2023-12-19;415078
-"PAC-0118";43;"constitucion";"hipertensión";3;6;NA;443076
-"PAC-0068";33;"san javier";"traumatismo";1;10;2022-06-08;392862
-"PAC-0949";37;"san javier";"neumonia";15;25;NA;123570
-"PAC-0991";76;"molina";"diabetes";1;20;NA;883474
-"PAC-0043";64;"talca";"neumonía";15;17;2024-04-10;142594
-"PAC-0721";79;"curico";"neumonía";10;14;2024-06-25;364907
-"PAC-0619";89;"constitucion";"diabetes";27;19;2023-06-26;880170
-"PAC-0493";65;"talca";"diabetes";12;24;NA;607481
-"PAC-0920";72;"parral";"traumatismo";7;5;2025-08-05;933149
-"PAC-0229";76;"linares";"diabetes";3;15;2031-01-01;67505
-"PAC-0860";40;"talca";"asma";1;15;2022-06-24;740115
-"PAC-0374";36;"linares";"neumonia";28;6;2023-04-12;685672
-"PAC-0744";75;"san javier";"hipertensión";24;3;2025-12-05;499133
-"PAC-0784";20;"parral";"diabetes";30;9;NA;783982
-"PAC-0794";48;"linares";"traumatismo";27;17;NA;100281
-"PAC-0386";19;"constitucion";"hipertensión";30;12;2025-08-27;730452
-"PAC-0993";58;"cauquenes";"hipertensión";6;16;NA;419661
-"PAC-0992";95;"curico";"hipertensión";13;0;2023-02-07;550393
-"PAC-0146";92;"cauquenes";"hipertensión";23;3;2031-01-01;437363
-"PAC-0067";38;"parral";"diabetes";6;9;2024-05-01;335405
-"PAC-0310";95;"talca";"";25;6;2025-03-01;582354
-"PAC-0427";3;"san javier";"asma";27;7;2022-03-18;121043
-"PAC-0385";87;"talca";"diabetes";12;25;2022-03-05;527765
-"PAC-0502";22;"san javier";"asma";19;NA;2023-04-11;945719
-"PAC-0739";34;"san javier";"hipertensión";22;13;2025-05-05;488493
-"PAC-0627";60;"cauquenes";"neumonia";27;NA;NA;937192
-"PAC-0617";42;"talca";"diabetes";15;18;2025-02-14;317409
-"PAC-0900";5;"molina";"asma";12;14;2025-02-07;322698
-"PAC-0143";41;"talca";"neumonía";2;19;2022-07-04;470209
-"PAC-0346";65;"curico";"";8;13;2023-11-26;638021
-"PAC-0618";48;"talca";"neumonía";17;25;2022-05-19;334045
-"PAC-0039";29;"parral";"diabetes";18;13;2025-08-27;460607
-"PAC-0261";59;"san javier";"neumonía";3;7;2022-12-12;48075
-"PAC-0869";70;"curico";"traumatismo";4;19;2025-07-06;26787
-"PAC-0563";71;"linares";"neumonía";21;25;NA;417856
-"PAC-0736";53;"molina";"asma";23;22;NA;306171
-"PAC-0469";60;"linares";"hipertensión";6;10;NA;79530
-"PAC-0391";33;"cauquenes";"asma";5;20;2023-04-18;529466
-"PAC-0595";9;"talca";"asma";5;18;2023-05-22;929727
-"PAC-0776";91;"san javier";"neumonia";18;2;2022-01-01;124857
-"PAC-0384";95;"linares";"traumatismo";2;14;NA;764524
-"PAC-0042";19;"cauquenes";"traumatismo";7;6;2024-09-09;401138
-"PAC-0705";81;"san javier";"asma";20;19;NA;764152
-"PAC-0266";14;"san javier";"";11;5;NA;348010
-"PAC-0309";62;"constitucion";"traumatismo";24;16;2023-08-23;748321
-"PAC-0908";6;"san javier";"neumonia";13;11;2022-03-22;111212
-"PAC-0567";48;"cauquenes";"neumonia";27;3;NA;543388
-"PAC-0658";51;"cauquenes";"diabetes";27;5;2024-03-01;886093
-"PAC-0005";94;"cauquenes";"asma";12;2;NA;163302
-"PAC-0975";81;"cauquenes";"asma";29;18;NA;660554
-"PAC-0514";80;"linares";"diabetes";5;5;2025-11-02;739824
-"PAC-0837";95;"cauquenes";"diabetes";14;0;2023-03-18;557918
-"PAC-0680";61;"curico";"diabetes";25;17;2025-09-01;630487
-"PAC-0135";42;"san javier";"diabetes";15;15;2022-02-28;592333
-"PAC-0166";93;"talca";"neumonía";2;13;2031-01-01;34652
-"PAC-0912";17;"constitucion";"diabetes";22;15;2025-10-20;300289
-"PAC-0620";44;"molina";"diabetes";18;23;2022-02-01;912463
-"PAC-0683";83;"san javier";"";8;14;2025-03-13;783240
-"PAC-0288";0;"cauquenes";"neumonía";6;15;2023-02-07;811749
-"PAC-0693";53;"talca";"asma";20;10;2025-08-14;395968
-"PAC-0165";31;"molina";"";4;17;NA;43619
-"PAC-0555";8;"san javier";"asma";14;22;NA;841205
-"PAC-0462";52;"curico";"asma";13;5;NA;344789
-"PAC-0989";54;"cauquenes";"";11;15;2022-12-22;96277
-"PAC-0354";7;"linares";"neumonía";2;6;2022-11-28;456132
-"PAC-0962";91;"curico";"diabetes";18;9;2024-10-08;288757
-"PAC-0867";61;"san javier";"neumonia";8;24;2022-12-03;651627
-"PAC-0331";86;"curico";"traumatismo";3;0;NA;188421
-"PAC-0872";71;"linares";"neumonía";7;7;2022-03-28;528283
-"PAC-0787";36;"constitucion";"neumonia";17;9;NA;146750
-"PAC-0127";83;"san javier";"hipertensión";18;5;2022-10-18;892464
-"PAC-0115";49;"linares";"asma";28;23;2024-04-24;827772
-"PAC-0576";14;"parral";"asma";23;7;2022-04-16;571462
-"PAC-0477";72;"cauquenes";"traumatismo";24;23;2031-01-01;46589
-"PAC-0371";7;"cauquenes";"traumatismo";29;NA;NA;697428
-"PAC-0832";85;"talca";"diabetes";20;2;2023-07-13;550669
-"PAC-0586";59;"san javier";"neumonia";14;23;2022-05-16;862003
-"PAC-0098";35;"curico";"diabetes";10;13;2022-10-07;602519
-"PAC-0256";53;"san javier";"diabetes";8;22;2022-07-18;648557
-"PAC-0647";68;"linares";"asma";29;8;2022-11-21;475222
-"PAC-0224";49;"san javier";"neumonía";15;25;2023-02-21;650717
-"PAC-0158";79;"molina";"";3;0;2023-12-28;228578
-"PAC-0181";49;"talca";"hipertensión";3;18;2022-06-25;901338
-"PAC-0321";39;"parral";"neumonía";23;18;2025-06-08;667233
-"PAC-0802";6;"curico";"hipertensión";27;19;2022-02-20;458233
-"PAC-0180";58;"parral";"neumonia";11;9;2022-08-05;490465
-"PAC-0270";28;"san javier";"hipertensión";23;18;2023-01-09;98186
-"PAC-0696";5;"san javier";"diabetes";24;25;2022-08-19;128911
-"PAC-0838";36;"san javier";"asma";15;21;2022-10-18;126521
-"PAC-0580";54;"constitucion";"neumonía";3;NA;2022-09-13;374846
-"PAC-0813";42;"san javier";"neumonía";1;12;2024-07-17;44565
-"PAC-0702";58;"talca";"hipertensión";2;NA;NA;71512
-"PAC-0425";61;"talca";"diabetes";1;24;2031-01-01;849104
-"PAC-0960";28;"molina";"diabetes";27;3;NA;843175
-"PAC-0734";2;"parral";"asma";6;23;NA;422226
-"PAC-0319";78;"parral";"diabetes";11;6;NA;248744
-"PAC-0113";75;"linares";"asma";4;4;2024-01-22;247805
-"PAC-0974";28;"cauquenes";"diabetes";24;6;2023-04-13;74433
-"PAC-0195";3;"talca";"diabetes";27;12;2025-07-20;390070
-"PAC-0138";24;"molina";"hipertensión";23;2;2025-02-22;833274
-"PAC-0265";50;"san javier";"traumatismo";2;21;2023-10-18;578302
-"PAC-0196";24;"curico";"neumonia";10;10;2023-10-04;405178
-"PAC-0742";32;"molina";"hipertensión";10;16;2025-12-18;473096
-"PAC-0578";41;"curico";"";30;22;2024-07-01;505984
-"PAC-0639";57;"curico";"hipertensión";18;8;NA;262808
-"PAC-0323";50;"curico";"asma";2;15;NA;764610
-"PAC-0952";64;"linares";"neumonía";13;NA;2023-05-26;291872
-"PAC-0827";45;"constitucion";"asma";9;4;NA;234131
-"PAC-0779";3;"linares";"asma";14;16;2025-02-07;730392
-"PAC-0094";91;"linares";"hipertensión";7;21;2024-07-23;696803
-"PAC-0101";10;"cauquenes";"";1;6;2031-01-01;154240
-"PAC-0233";33;"molina";"traumatismo";8;12;NA;502087
-"PAC-0396";20;"constitucion";"asma";19;13;NA;718922
-"PAC-0630";83;"cauquenes";"hipertensión";11;13;2025-02-19;718187
-"PAC-0368";54;"curico";"asma";4;16;NA;463950
-"PAC-0410";3;"talca";"asma";20;7;2023-10-17;259119
-"PAC-0176";53;"san javier";"neumonía";3;4;NA;859672
-"PAC-0409";73;"san javier";"hipertensión";27;15;2022-08-26;564913
-"PAC-0604";36;"talca";"hipertensión";2;21;2025-04-12;389776
-"PAC-0007";63;"cauquenes";"diabetes";20;NA;2022-12-13;296433
-"PAC-0162";78;"cauquenes";"traumatismo";23;2;2022-01-12;573116
-"PAC-0366";84;"cauquenes";"diabetes";9;20;2023-10-02;488461
-"PAC-0414";36;"linares";"diabetes";2;21;2025-06-10;551374
-"PAC-0501";42;"linares";"";17;8;2025-01-04;264152
-"PAC-0219";21;"talca";"";18;22;2025-07-09;574550
-"PAC-0358";48;"parral";"traumatismo";23;21;NA;186879
-"PAC-0652";41;"constitucion";"traumatismo";28;21;NA;49377
-"PAC-0120";32;"molina";"neumonía";18;23;2022-06-02;700561
-"PAC-0411";41;"cauquenes";"neumonía";2;NA;2023-02-09;516020
-"PAC-0290";10;"curico";"diabetes";6;23;2023-04-01;250080
-"PAC-0044";18;"talca";"traumatismo";7;8;NA;176369
-"PAC-0141";66;"curico";"hipertensión";25;20;NA;862520
-"PAC-0722";36;"talca";"asma";19;17;2023-08-15;213269
-"PAC-0768";32;"parral";"asma";5;20;2024-12-01;867974
-"PAC-0402";56;"talca";"hipertensión";3;2;2025-11-16;861431
-"PAC-0388";57;"linares";"";1;7;2025-03-01;147458
-"PAC-0684";0;"talca";"hipertensión";15;11;2023-06-08;712995
-"PAC-0445";58;"talca";"neumonia";13;23;2024-07-24;263654
-"PAC-0930";15;"constitucion";"asma";10;22;2031-01-01;456400
-"PAC-0436";58;"san javier";"neumonía";27;15;2022-06-11;313034
-"PAC-0957";77;"linares";"neumonia";19;22;2022-02-06;551419
-"PAC-0738";92;"linares";"traumatismo";11;2;2025-08-09;279880
-"PAC-0633";23;"san javier";"traumatismo";2;19;2022-11-24;97314
-"PAC-0935";7;"san javier";"";18;2;2025-06-18;867761
-"PAC-0325";65;"talca";"asma";13;20;2022-09-20;638699
-"PAC-0526";95;"san javier";"neumonía";11;24;2025-02-21;925288
-"PAC-0478";13;"curico";"asma";21;24;2022-04-01;735802
-"PAC-0315";33;"talca";"hipertensión";13;18;2023-07-07;808615
-"PAC-0609";37;"cauquenes";"traumatismo";10;18;NA;63769
-"PAC-0129";48;"linares";"traumatismo";24;19;NA;72014
-"PAC-0844";72;"molina";"traumatismo";9;NA;2022-10-20;117410
-"PAC-0786";25;"linares";"diabetes";16;0;2022-10-14;547473
-"PAC-0099";44;"talca";"neumonia";14;23;2022-03-14;624532
-"PAC-0018";52;"constitucion";"diabetes";19;14;2025-07-25;775957
-"PAC-0689";42;"talca";"asma";1;16;2023-10-25;353971
-"PAC-0235";21;"talca";"hipertensión";10;21;2025-11-03;842104
-"PAC-0364";76;"talca";"neumonia";24;NA;NA;699761
-"PAC-0902";75;"curico";"hipertensión";14;14;2023-03-12;424510
-"PAC-0517";3;"molina";"hipertensión";18;18;NA;908015
-"PAC-0846";56;"talca";"hipertensión";6;5;2022-02-27;648069
-"PAC-0631";19;"linares";"hipertensión";23;6;2023-01-10;524630
-"PAC-0571";62;"linares";"hipertensión";27;16;2022-08-17;671682
-"PAC-0954";67;"linares";"traumatismo";22;5;2025-01-22;669718
-"PAC-0348";49;"san javier";"hipertensión";8;17;NA;140821
-"PAC-0175";24;"curico";"neumonía";18;9;2023-05-16;851449
-"PAC-0725";24;"talca";"neumonia";16;15;NA;748680
-"PAC-0055";24;"talca";"diabetes";16;9;2022-08-28;662038
-"PAC-0302";56;"talca";"hipertensión";27;15;NA;206923
-"PAC-0173";4;"san javier";"asma";11;7;NA;940693
-"PAC-0659";6;"cauquenes";"neumonia";30;NA;NA;664572
-"PAC-0830";83;"talca";"diabetes";23;0;2023-02-21;748096
-"PAC-0482";46;"cauquenes";"neumonia";11;24;NA;612425
-"PAC-0915";92;"molina";"diabetes";4;18;NA;912483
-"PAC-0334";70;"talca";"neumonia";1;10;NA;753265
-"PAC-0212";44;"linares";"asma";9;25;NA;471108
-"PAC-0843";18;"parral";"traumatismo";4;17;2023-10-07;83542
-"PAC-0731";81;"curico";"traumatismo";23;11;2025-03-01;118580
-"PAC-0824";76;"linares";"hipertensión";17;2;2024-08-01;365056
-"PAC-0347";78;"linares";"neumonía";22;17;2024-04-21;61875
-"PAC-0979";17;"parral";"asma";20;NA;2023-12-21;906208
-"PAC-0236";34;"cauquenes";"asma";4;8;2024-01-09;671988
-"PAC-0012";71;"talca";"neumonia";1;7;NA;631670
-"PAC-0850";22;"constitucion";"hipertensión";13;15;2024-12-08;501361
-"PAC-0596";9;"molina";"asma";22;7;NA;519751
-"PAC-0268";71;"san javier";"diabetes";14;4;NA;214690
-"PAC-0418";47;"curico";"hipertensión";4;NA;2025-08-04;219644
-"PAC-0793";11;"san javier";"";9;20;2024-12-28;140579
-"PAC-0051";45;"cauquenes";"";27;20;NA;93870
-"PAC-0287";10;"talca";"neumonia";21;0;2023-06-26;29003
-"PAC-0726";78;"cauquenes";"diabetes";21;2;2025-04-13;694623
-"PAC-0896";45;"linares";"asma";30;3;2022-04-25;591862
-"PAC-0809";18;"cauquenes";"diabetes";20;19;2025-04-03;138172
-"PAC-0259";93;"cauquenes";"neumonia";27;17;2023-06-14;124482
-"PAC-0139";2;"linares";"traumatismo";13;11;2022-01-06;825403
-"PAC-0226";38;"san javier";"asma";21;25;2022-12-11;857697
-"PAC-0773";43;"cauquenes";"diabetes";30;25;2024-08-27;490541
-"PAC-0506";31;"cauquenes";"neumonia";5;18;2024-08-20;51471
-"PAC-0805";67;"san javier";"traumatismo";8;0;2025-07-08;42349
-"PAC-0464";21;"parral";"";11;21;2024-04-08;852113
-"PAC-0237";71;"linares";"";23;19;2023-05-07;828740
-"PAC-0124";47;"cauquenes";"traumatismo";5;6;2023-01-08;392407
-"PAC-0870";90;"linares";"traumatismo";28;NA;2023-06-28;881840
-"PAC-0153";21;"molina";"diabetes";3;8;NA;901404
-"PAC-0863";83;"curico";"neumonía";25;0;2022-10-09;909985
-"PAC-0026";64;"curico";"asma";11;17;2022-03-07;279906
-"PAC-0961";78;"cauquenes";"diabetes";24;9;2024-12-22;874810
-"PAC-0403";87;"talca";"asma";29;2;2022-08-16;901472
-"PAC-0767";35;"talca";"hipertensión";29;NA;2024-06-27;162776
-"PAC-0876";22;"talca";"diabetes";11;14;NA;342771
-"PAC-0249";47;"constitucion";"diabetes";10;7;2023-07-07;140863
-"PAC-0898";0;"talca";"diabetes";27;22;2025-04-10;454411
-"PAC-0624";90;"talca";"diabetes";27;14;2025-02-18;606626
-"PAC-0890";88;"curico";"neumonia";1;8;2025-12-14;941755
-"PAC-0778";27;"linares";"diabetes";4;23;NA;939617
-"PAC-0913";3;"cauquenes";"asma";4;17;2022-07-14;319051
-"PAC-0460";27;"san javier";"hipertensión";21;25;NA;154432
-"PAC-0308";43;"talca";"hipertensión";4;7;2025-09-13;707299
-"PAC-0547";78;"linares";"neumonia";4;20;2025-10-22;550321
-"PAC-0474";6;"san javier";"traumatismo";4;11;2023-01-01;553327
-"PAC-0054";48;"san javier";"diabetes";11;17;2024-11-05;317287
-"PAC-0831";82;"talca";"traumatismo";20;11;2025-07-22;135696
-"PAC-0764";9;"molina";"hipertensión";2;NA;2023-04-27;585160
-"PAC-0401";5;"curico";"";14;5;2025-04-24;849551
-"PAC-0244";10;"molina";"hipertensión";20;11;NA;527844
-"PAC-0029";65;"linares";"traumatismo";12;10;NA;795666
-"PAC-0492";44;"cauquenes";"asma";9;11;NA;287058
-"PAC-0349";94;"talca";"diabetes";1;6;2022-04-19;73587
-"PAC-0142";48;"san javier";"asma";12;19;NA;527574
-"PAC-0214";43;"constitucion";"asma";9;NA;2025-09-23;331170
-"PAC-0650";1;"curico";"neumonia";14;10;2025-01-16;326957
-"PAC-0666";34;"molina";"";19;12;2022-02-05;320374
-"PAC-0986";42;"curico";"neumonia";3;11;2025-12-18;499952
-"PAC-0192";77;"cauquenes";"hipertensión";25;9;NA;403126
-"PAC-0037";41;"curico";"asma";19;10;2024-04-06;397141
-"PAC-0661";58;"cauquenes";"neumonía";19;24;2024-08-02;330136
-"PAC-0339";45;"constitucion";"hipertensión";5;14;2025-01-13;316148
-"PAC-0532";58;"constitucion";"traumatismo";30;12;2031-01-01;833870
-"PAC-0907";60;"molina";"diabetes";20;16;2025-08-27;307212
-"PAC-0836";36;"curico";"traumatismo";17;14;2024-04-13;503984
-"PAC-0785";2;"linares";"diabetes";1;23;2023-03-15;712463
-"PAC-0215";20;"talca";"neumonía";24;11;2025-12-11;450865
-"PAC-0455";54;"cauquenes";"asma";1;18;NA;769853
-"PAC-0091";51;"cauquenes";"diabetes";9;7;2023-10-25;775063
-"PAC-0144";80;"constitucion";"hipertensión";1;15;2022-06-09;383484
-"PAC-0136";82;"cauquenes";"asma";30;17;2022-02-21;939728
-"PAC-0582";77;"talca";"hipertensión";18;2;2024-11-28;841484
-"PAC-0901";39;"san javier";"traumatismo";10;11;2023-07-01;171687
-"PAC-0262";37;"curico";"neumonía";5;21;2025-01-14;293742
-"PAC-0328";85;"talca";"hipertensión";21;1;2022-08-01;894669
-"PAC-0114";20;"parral";"hipertensión";18;5;NA;877425
-"PAC-0495";26;"talca";"neumonia";24;11;NA;90530
-"PAC-0775";20;"curico";"hipertensión";11;14;2024-12-18;917962
-"PAC-0692";29;"san javier";"asma";3;15;NA;240679
-"PAC-0137";22;"cauquenes";"diabetes";8;5;2025-11-02;566826
-"PAC-0553";29;"linares";"hipertensión";11;6;2024-10-22;324561
-"PAC-0897";1;"curico";"diabetes";2;20;2023-05-03;581322
-"PAC-0077";12;"cauquenes";"diabetes";21;20;NA;110138
-"PAC-0996";37;"talca";"hipertensión";22;11;NA;931209
-"PAC-0128";75;"san javier";"asma";25;14;2022-06-11;277437
-"PAC-0080";86;"curico";"neumonía";11;7;NA;804215
-"PAC-0603";74;"curico";"neumonia";27;17;NA;459178
-"PAC-0512";38;"parral";"asma";3;21;2022-01-26;78476
-"PAC-0622";93;"curico";"asma";25;15;2031-01-01;48613
-"PAC-0637";22;"san javier";"diabetes";25;10;NA;89166
-"PAC-0076";81;"curico";"";18;4;2024-08-05;67493
-"PAC-0997";6;"cauquenes";"diabetes";19;2;2024-04-04;277219
-"PAC-0187";22;"cauquenes";"diabetes";15;8;NA;698756
-"PAC-0407";42;"talca";"";2;20;2024-10-10;468607
-"PAC-0727";71;"san javier";"neumonia";11;7;2024-08-15;777709
-"PAC-0537";56;"san javier";"neumonia";21;9;2023-04-09;860008
-"PAC-0487";56;"curico";"";1;8;2024-12-10;408667
-"PAC-0154";62;"talca";"traumatismo";1;17;2023-04-26;496918
-"PAC-0280";93;"parral";"asma";19;0;2024-04-19;573660
-"PAC-0036";83;"talca";"hipertensión";22;5;2025-11-08;155487
-"PAC-0878";84;"cauquenes";"neumonía";6;20;NA;418918
-"PAC-0839";30;"san javier";"traumatismo";29;7;NA;742429
-"PAC-0937";42;"linares";"diabetes";16;5;NA;509645
-"PAC-0399";52;"linares";"traumatismo";1;10;2025-09-28;227895
-"PAC-0009";87;"constitucion";"hipertensión";26;18;NA;176251
-"PAC-0394";1;"talca";"";22;19;2025-02-03;776951
-"PAC-0463";89;"cauquenes";"asma";29;10;NA;314373
-"PAC-0485";43;"cauquenes";"hipertensión";3;13;2022-03-24;392967
-"PAC-0277";24;"molina";"hipertensión";13;0;2023-06-16;464772
-"PAC-0591";10;"cauquenes";"asma";8;6;2024-08-08;138861
-"PAC-0597";13;"molina";"asma";22;12;2023-09-16;574712
-"PAC-0424";14;"parral";"diabetes";18;5;2023-01-12;541498
-"PAC-0521";4;"talca";"diabetes";7;4;2022-12-02;688620
-"PAC-0574";84;"curico";"diabetes";20;11;2024-06-21;505146
-"PAC-0674";47;"talca";"diabetes";19;23;2024-04-11;271397
-"PAC-0862";14;"molina";"traumatismo";22;25;2022-09-04;920059
-"PAC-0817";6;"linares";"traumatismo";24;24;NA;634385
-"PAC-0097";19;"cauquenes";"traumatismo";4;4;2023-12-06;212814
-"PAC-0958";55;"san javier";"diabetes";1;15;2025-06-06;714541
-"PAC-0552";71;"cauquenes";"";2;5;2023-10-04;868813
-"PAC-0207";28;"san javier";"hipertensión";15;8;2024-02-18;549497
-"PAC-0038";21;"curico";"diabetes";7;25;2025-11-10;277273
-"PAC-0635";45;"curico";"neumonía";18;15;2025-10-10;935403
-"PAC-0434";11;"parral";"asma";22;21;2024-01-25;479481
-"PAC-0473";62;"san javier";"asma";4;7;2025-02-14;776562
-"PAC-0524";54;"talca";"";20;20;2025-01-21;561463
-"PAC-0151";70;"san javier";"neumonía";5;12;2022-10-03;109412
-"PAC-0881";24;"linares";"diabetes";12;1;2024-01-22;691576
-"PAC-0194";73;"curico";"diabetes";12;7;NA;692506
-"PAC-0657";79;"parral";"neumonía";7;8;NA;39631
-"PAC-0286";88;"talca";"neumonia";7;17;2025-08-12;157770
-"PAC-0899";29;"curico";"asma";9;8;2022-09-15;268469
-"PAC-0851";51;"curico";"asma";24;14;2022-01-17;711984
-"PAC-0024";27;"linares";"asma";26;19;2025-09-28;283437
-"PAC-0757";93;"talca";"traumatismo";5;6;2025-10-16;31248
-"PAC-0873";23;"san javier";"diabetes";26;21;2025-12-27;255098
-"PAC-0572";3;"talca";"diabetes";8;3;2024-01-14;400428
-"PAC-0577";92;"linares";"diabetes";27;5;2025-12-16;912569
-"PAC-0255";45;"san javier";"diabetes";25;0;NA;578147
-"PAC-0889";87;"talca";"neumonía";15;11;NA;274038
-"PAC-0150";24;"talca";"hipertensión";22;17;2024-12-08;732139
-"PAC-0322";43;"san javier";"traumatismo";30;20;NA;637651
-"PAC-0769";94;"parral";"diabetes";16;8;2025-05-16;940943
-"PAC-0465";81;"linares";"diabetes";29;14;2022-01-05;172336
-"PAC-0985";76;"linares";"";14;18;2024-07-06;525028
-"PAC-0245";0;"parral";"diabetes";28;18;2022-06-25;139330
-"PAC-0361";36;"talca";"traumatismo";15;20;2023-10-26;914019
-"PAC-0023";93;"san javier";"diabetes";5;6;2022-08-03;688333
-"PAC-0412";27;"parral";"diabetes";11;14;2023-09-14;28530
-"PAC-0752";22;"talca";"neumonía";10;12;NA;74368
-"PAC-0085";11;"talca";"asma";14;18;2022-04-20;411389
-"PAC-0534";5;"talca";"diabetes";22;2;NA;277417
-"PAC-0818";33;"talca";"asma";22;15;2023-06-19;59196
-"PAC-0579";93;"san javier";"neumonia";10;11;2022-04-01;772231
-"PAC-0182";42;"molina";"hipertensión";21;NA;2023-10-18;707672
-"PAC-0240";48;"cauquenes";"neumonía";1;9;2025-03-23;714000
-"PAC-0676";87;"curico";"neumonía";28;0;2024-05-10;117183
-"PAC-0558";51;"talca";"hipertensión";22;NA;NA;202024
-"PAC-0893";6;"talca";"traumatismo";25;15;2023-07-11;366404
-"PAC-0278";16;"san javier";"diabetes";11;24;2022-01-28;505891
-"PAC-0906";14;"cauquenes";"asma";14;21;2024-06-01;553660
-"PAC-0903";41;"cauquenes";"neumonía";22;11;2022-11-25;245518
-"PAC-0184";67;"curico";"traumatismo";21;2;NA;453175
-"PAC-0072";69;"cauquenes";"neumonia";17;15;2023-07-28;708197
-"PAC-0454";59;"molina";"hipertensión";16;1;NA;300030
-"PAC-0271";33;"san javier";"diabetes";3;24;2022-09-14;723253
-"PAC-0970";14;"curico";"neumonia";23;NA;NA;129582
-"PAC-0479";37;"parral";"asma";12;3;2022-05-15;475794
-"PAC-0918";24;"molina";"traumatismo";10;8;NA;569136
-"PAC-0178";86;"talca";"traumatismo";20;7;2025-07-24;848800
-"PAC-0601";71;"constitucion";"diabetes";13;18;2022-11-22;31731
-"PAC-0105";71;"talca";"hipertensión";8;3;NA;917864
-"PAC-0452";64;"curico";"neumonia";11;12;NA;938582
-"PAC-0740";51;"constitucion";"neumonia";29;10;NA;414841
-"PAC-0559";29;"parral";"hipertensión";30;24;2022-03-09;766295
-"PAC-0163";94;"talca";"asma";26;24;2024-09-01;470356
-"PAC-0966";14;"cauquenes";"hipertensión";5;20;NA;412128
-"PAC-0584";67;"san javier";"diabetes";30;5;NA;245857
-"PAC-0378";31;"talca";"neumonía";22;NA;2022-07-13;452195
-"PAC-0509";71;"molina";"diabetes";2;NA;2022-08-06;760093
-"PAC-0159";61;"linares";"hipertensión";22;5;2022-11-07;57466
-"PAC-0995";73;"cauquenes";"hipertensión";24;NA;2025-05-01;225651
-"PAC-0544";90;"san javier";"hipertensión";7;13;2025-12-17;687209
-"PAC-0332";8;"parral";"asma";1;9;2024-01-11;100367
-"PAC-0305";11;"cauquenes";"traumatismo";13;13;2023-03-21;869120
-"PAC-0554";86;"san javier";"diabetes";22;2;2023-11-06;646949
-"PAC-0355";50;"curico";"";22;3;2023-06-28;222640
-"PAC-0626";68;"san javier";"asma";28;25;NA;356704
-"PAC-0835";33;"curico";"neumonía";28;15;NA;679080
-"PAC-0254";29;"molina";"diabetes";13;19;2025-10-04;332969
-"PAC-0737";37;"molina";"diabetes";29;NA;NA;162895
-"PAC-0362";65;"molina";"hipertensión";16;6;2025-06-04;70297
-"PAC-0046";79;"linares";"hipertensión";30;19;2022-07-01;35581
-"PAC-0395";84;"molina";"asma";20;15;2023-01-15;31879
-"PAC-0607";88;"curico";"diabetes";11;17;NA;630537
-"PAC-0640";39;"curico";"diabetes";1;17;2023-08-01;863355
-"PAC-0847";41;"parral";"diabetes";30;3;2024-03-20;891694
-"PAC-0858";89;"molina";"asma";14;23;2022-11-01;438999
-"PAC-0649";1;"talca";"hipertensión";7;18;2024-04-14;431876
-"PAC-0548";40;"linares";"";22;13;2025-03-12;420554
-"PAC-0155";11;"curico";"asma";19;25;2024-11-21;149736
-"PAC-0539";63;"san javier";"asma";10;11;2022-07-12;621920
-"PAC-0999";77;"curico";"";5;2;2024-08-16;891143
-"PAC-0634";41;"talca";"diabetes";25;16;2025-03-14;402391
-"PAC-0914";82;"parral";"traumatismo";8;18;NA;55336
-"PAC-0701";81;"cauquenes";"diabetes";24;17;NA;895524
-"PAC-0815";75;"linares";"";2;1;NA;386990
-"PAC-0360";25;"curico";"asma";13;15;2023-06-05;671298
-"PAC-0494";60;"talca";"hipertensión";12;13;2022-09-25;901633
-"PAC-0511";39;"talca";"hipertensión";10;17;2031-01-01;149196
+"id_paciente","edad","comuna","diagnostico_principal","cantidad_consultas","dias_hospitalizacion","fecha_ultima_atencion","costo_atencion"
+"PAC-0911",68,"talca","asma",26,21,2024-02-25,672039
+"PAC-0381",94,"san javier","sin dato",7,11,2025-12-07,701903
+"PAC-0248",69,"san javier","neumonia",15,5,2023-08-01,880928
+"PAC-0825",49,"linares","traumatismo",22,13,2023-08-09,570351
+"PAC-0090",41,"curico","hipertension",10,10,2024-03-15,196741
+"PAC-0842",36,"molina","neumonia",30,17,2023-07-21,102240
+"PAC-0116",45,"cauquenes","hipertension",7,4,2024-04-15,832560
+"PAC-0944",41,"curico","neumonia",2,20,2025-01-13,646944
+"PAC-0703",56,"cauquenes","traumatismo",17,19,2024-10-20,540974
+"PAC-0446",4,"san javier","neumonia",1,25,2023-05-07,208533
+"PAC-0122",75,"san javier","sin dato",19,24,2023-01-21,214063
+"PAC-0393",49,"talca","traumatismo",5,13,2023-10-04,745495
+"PAC-0318",81,"parral","traumatismo",26,23,2022-01-22,372861
+"PAC-0497",82,"talca","asma",18,2,NA,806833
+"PAC-0613",84,"cauquenes","hipertension",16,24,2022-12-19,919268
+"PAC-0447",63,"talca","hipertension",1,6,2023-04-19,105964
+"PAC-0543",73,"linares","traumatismo",6,12,2025-12-10,337499
+"PAC-0573",69,"talca","hipertension",12,22,2023-03-28,804167
+"PAC-0086",51,"talca","neumonia",9,22,2025-09-26,526148
+"PAC-0341",51,"linares","traumatismo",27,23,2022-04-12,189603
+"PAC-0071",43,"sin dato","hipertension",4,13,2025-09-28,109739
+"PAC-0320",75,"cauquenes","traumatismo",30,6,2023-02-22,468607
+"PAC-0754",88,"talca","neumonia",24,5,2022-07-22,651392
+"PAC-0513",54,"parral","hipertension",20,9,2023-04-11,468607
+"PAC-0472",33,"molina","hipertension",28,9,2023-01-11,295067
+"PAC-0189",95,"curico","diabetes",13,23,2023-04-08,705009
+"PAC-0929",11,"san javier","neumonia",1,4,2023-05-17,286173
+"PAC-0504",36,"curico","asma",21,19,2024-03-04,843878
+"PAC-0750",49,"curico","asma",9,1,2025-08-25,613906
+"PAC-0882",28,"san javier","asma",16,10,2024-10-25,613205
+"PAC-0297",77,"sin dato","neumonia",11,10,2025-10-15,264146
+"PAC-0456",26,"linares","hipertension",25,21,2023-08-07,341516
+"PAC-0614",22,"linares","asma",23,16,2022-09-11,921105
+"PAC-0003",79,"sin dato","diabetes",16,10,NA,923152
+"PAC-0857",70,"talca","asma",28,13,NA,58488
+"PAC-0771",28,"curico","asma",13,7,2023-01-08,703436
+"PAC-0461",15,"curico","hipertension",21,6,2023-12-11,232692
+"PAC-0978",76,"sin dato","traumatismo",27,4,2023-01-18,405484
+"PAC-0672",84,"curico","neumonia",24,5,2023-12-02,660598
+"PAC-0420",84,"san javier","traumatismo",24,2,2022-09-08,261084
+"PAC-0924",79,"talca","diabetes",18,20,2023-03-09,578327
+"PAC-0699",42,"sin dato","diabetes",16,12,2024-06-21,786781
+"PAC-0329",53,"linares","diabetes",15,6,NA,360002
+"PAC-0496",19,"san javier","hipertension",26,17,NA,468607
+"PAC-0724",86,"cauquenes","hipertension",21,12,NA,50640
+"PAC-0213",22,"talca","neumonia",4,13,2025-07-16,923034
+"PAC-0745",38,"linares","hipertension",5,23,2023-10-27,113110
+"PAC-0590",27,"curico","sin dato",9,17,2023-10-02,673208
+"PAC-0247",61,"curico","hipertension",3,19,2022-04-26,468607
+"PAC-0074",82,"san javier","diabetes",17,3,2023-07-12,620634
+"PAC-0001",15,"cauquenes","sin dato",7,8,2024-01-27,846150
+"PAC-0140",85,"molina","traumatismo",11,1,2023-09-18,174069
+"PAC-0161",39,"constitucion","asma",9,3,2025-04-10,448359
+"PAC-0437",4,"talca","diabetes",5,3,2024-03-12,177612
+"PAC-0803",37,"talca","neumonia",13,0,2024-02-04,330365
+"PAC-0527",0,"san javier","traumatismo",23,9,2023-10-18,525988
+"PAC-0892",93,"parral","asma",12,0,2023-05-21,254757
+"PAC-0642",47,"parral","diabetes",14,15,2025-02-07,612820
+"PAC-0840",47,"talca","diabetes",18,13,2023-01-01,636024
+"PAC-0691",31,"parral","neumonia",8,25,2023-02-20,36248
+"PAC-0599",77,"molina","diabetes",21,7,2024-12-26,768871
+"PAC-0073",68,"talca","hipertension",6,4,2023-10-11,346079
+"PAC-0811",65,"talca","traumatismo",21,23,2024-08-05,241048
+"PAC-0171",21,"sin dato","asma",2,22,2022-05-08,816726
+"PAC-0947",54,"talca","hipertension",10,7,NA,98376
+"PAC-0164",69,"talca","hipertension",30,24,2025-02-10,468607
+"PAC-0789",21,"parral","diabetes",5,19,2023-02-09,305139
+"PAC-0307",49,"constitucion","diabetes",22,6,2022-04-06,867105
+"PAC-0390",93,"curico","traumatismo",20,3,2024-10-26,807050
+"PAC-0713",70,"linares","asma",7,25,2025-12-22,742390
+"PAC-0715",43,"constitucion","diabetes",30,16,2025-04-19,232301
+"PAC-0294",82,"constitucion","diabetes",29,21,2023-03-19,339276
+"PAC-0565",21,"linares","neumonia",20,24,2023-12-18,447229
+"PAC-0763",79,"molina","diabetes",19,23,2024-07-15,249099
+"PAC-0470",84,"curico","neumonia",5,23,2023-04-14,134893
+"PAC-0190",42,"cauquenes","neumonia",11,21,NA,608301
+"PAC-0600",44,"cauquenes","hipertension",28,11,2023-05-10,354530
+"PAC-0720",12,"san javier","diabetes",14,4,NA,671789
+"PAC-0052",43,"cauquenes","hipertension",19,19,2023-10-12,468607
+"PAC-0605",68,"sin dato","traumatismo",29,13,2023-07-28,819997
+"PAC-0871",17,"san javier","asma",16,13,2025-03-02,622273
+"PAC-0982",39,"constitucion","traumatismo",11,7,2022-07-12,538078
+"PAC-0685",34,"linares","traumatismo",3,20,2024-03-13,779839
+"PAC-0880",91,"constitucion","hipertension",30,23,2023-04-26,698131
+"PAC-0336",14,"cauquenes","neumonia",6,2,2024-07-04,455689
+"PAC-0708",84,"san javier","neumonia",1,13,2025-06-03,393206
+"PAC-0062",72,"curico","sin dato",5,16,2023-08-24,468607
+"PAC-0191",30,"curico","neumonia",22,17,2025-03-23,249472
+"PAC-0491",15,"molina","neumonia",29,6,2024-11-24,338427
+"PAC-0644",23,"sin dato","hipertension",22,19,2025-08-09,674157
+"PAC-0874",34,"curico","asma",19,5,NA,320191
+"PAC-0681",55,"curico","traumatismo",15,3,2022-10-14,45960
+"PAC-0203",12,"constitucion","diabetes",4,20,NA,371772
+"PAC-0102",13,"talca","asma",26,9,NA,582364
+"PAC-0177",53,"molina","diabetes",6,16,2023-04-15,789164
+"PAC-0014",32,"cauquenes","asma",30,8,2025-07-02,381272
+"PAC-0641",75,"molina","sin dato",1,12,2025-03-01,253471
+"PAC-0919",24,"san javier","neumonia",21,12,2025-11-10,643069
+"PAC-0812",45,"talca","sin dato",8,21,2023-12-21,657940
+"PAC-0664",24,"curico","hipertension",17,11,2022-06-11,364830
+"PAC-1000",43,"linares","diabetes",22,7,2025-06-25,406701
+"PAC-0938",58,"curico","diabetes",17,21,2022-07-25,383464
+"PAC-0636",56,"curico","neumonia",12,20,NA,513532
+"PAC-0416",24,"parral","neumonia",6,19,NA,489059
+"PAC-0887",70,"linares","traumatismo",20,6,2025-03-11,550877
+"PAC-0922",26,"molina","diabetes",26,11,2024-11-11,551935
+"PAC-0340",15,"san javier","neumonia",11,2,2024-04-05,823910
+"PAC-0100",54,"constitucion","traumatismo",21,22,2023-11-07,429199
+"PAC-0134",51,"talca","neumonia",12,13,2022-08-01,465749
+"PAC-0084",42,"cauquenes","sin dato",20,4,2024-12-10,768638
+"PAC-0569",34,"san javier","traumatismo",14,9,2023-02-16,84350
+"PAC-0351",44,"san javier","asma",30,8,2022-08-04,799480
+"PAC-0430",54,"curico","sin dato",29,7,2025-02-16,50961
+"PAC-0419",67,"cauquenes","neumonia",5,10,2025-09-20,61179
+"PAC-0868",62,"constitucion","traumatismo",1,9,2024-06-11,242413
+"PAC-0955",20,"san javier","asma",2,0,2023-01-06,226159
+"PAC-0066",55,"talca","neumonia",21,2,2025-06-02,828163
+"PAC-0756",22,"san javier","asma",20,9,2024-07-24,245251
+"PAC-0145",76,"cauquenes","sin dato",27,0,NA,464848
+"PAC-0904",30,"talca","hipertension",27,5,2025-06-25,368346
+"PAC-0841",7,"curico","asma",14,25,2022-08-15,43892
+"PAC-0594",77,"cauquenes","asma",3,24,2023-04-05,753681
+"PAC-0568",33,"linares","diabetes",19,11,2022-05-06,864216
+"PAC-0690",33,"talca","hipertension",20,3,2024-05-09,247602
+"PAC-0753",29,"san javier","asma",25,15,NA,714948
+"PAC-0296",62,"molina","diabetes",19,4,2024-02-22,306056
+"PAC-0216",72,"sin dato","asma",19,25,2022-10-02,749344
+"PAC-0716",79,"linares","traumatismo",2,20,2022-09-02,30927
+"PAC-0405",68,"cauquenes","asma",10,1,2023-06-14,74508
+"PAC-0069",54,"curico","asma",27,5,2025-08-17,522688
+"PAC-0064",7,"sin dato","diabetes",14,25,2025-06-16,386167
+"PAC-0616",79,"cauquenes","asma",12,8,2022-04-06,31985
+"PAC-0656",52,"talca","traumatismo",29,10,NA,182791
+"PAC-0503",40,"cauquenes","neumonia",3,25,2024-06-07,831236
+"PAC-0457",75,"cauquenes","diabetes",12,15,2025-07-17,76728
+"PAC-0743",46,"cauquenes","neumonia",26,19,2024-03-27,827026
+"PAC-0667",11,"linares","traumatismo",14,15,2025-05-14,272255
+"PAC-0041",50,"talca","neumonia",26,21,2024-05-03,883219
+"PAC-0032",6,"talca","hipertension",9,5,2023-06-23,369841
+"PAC-0662",53,"parral","asma",7,5,2023-06-10,805138
+"PAC-0621",50,"curico","neumonia",7,13,NA,679176
+"PAC-0357",29,"talca","asma",13,13,2022-07-28,675032
+"PAC-0075",83,"linares","hipertension",26,2,2024-02-27,483781
+"PAC-0059",47,"cauquenes","traumatismo",1,24,2025-03-23,181760
+"PAC-0965",34,"cauquenes","hipertension",5,7,2024-10-14,533843
+"PAC-0048",51,"cauquenes","traumatismo",1,1,2024-10-09,351370
+"PAC-0654",92,"parral","neumonia",9,18,2024-01-13,93885
+"PAC-0759",91,"san javier","sin dato",10,13,2023-06-16,554679
+"PAC-0593",42,"talca","diabetes",18,0,NA,191780
+"PAC-0816",73,"talca","asma",24,20,2025-10-20,77473
+"PAC-0981",87,"linares","asma",26,18,2022-01-09,701870
+"PAC-0718",21,"talca","traumatismo",14,6,2024-10-21,264322
+"PAC-0008",4,"curico","asma",1,15,2024-06-23,933566
+"PAC-0670",19,"linares","diabetes",2,5,2024-02-17,942247
+"PAC-0429",90,"cauquenes","hipertension",5,12,2024-12-23,775879
+"PAC-0304",60,"sin dato","hipertension",19,21,2023-01-15,222616
+"PAC-0866",8,"molina","hipertension",2,13,2022-10-03,723745
+"PAC-0108",30,"linares","diabetes",18,24,2023-06-10,125091
+"PAC-0988",81,"curico","hipertension",5,9,NA,246534
+"PAC-0481",61,"linares","asma",22,19,2025-04-27,130164
+"PAC-0011",15,"linares","diabetes",4,7,NA,213530
+"PAC-0466",71,"talca","neumonia",17,8,2023-08-22,233885
+"PAC-0774",8,"curico","neumonia",8,2,2024-09-20,127525
+"PAC-0015",38,"cauquenes","hipertension",15,15,2025-02-03,125650
+"PAC-0854",51,"talca","asma",24,13,2023-02-03,581067
+"PAC-0984",27,"linares","neumonia",21,12,2022-07-05,468607
+"PAC-0065",63,"san javier","asma",28,6,2022-03-20,50092
+"PAC-0529",62,"parral","neumonia",28,13,2022-09-21,207398
+"PAC-0103",37,"sin dato","diabetes",15,17,2022-12-01,933432
+"PAC-0359",11,"cauquenes","sin dato",21,11,2024-06-18,665439
+"PAC-0132",70,"sin dato","diabetes",20,1,2025-10-18,897970
+"PAC-0104",54,"constitucion","traumatismo",16,13,2024-02-23,82138
+"PAC-0119",88,"constitucion","traumatismo",26,25,2024-02-05,883199
+"PAC-0148",25,"talca","diabetes",23,21,2022-10-04,559275
+"PAC-0990",34,"cauquenes","hipertension",25,10,2023-12-17,468607
+"PAC-0373",18,"molina","traumatismo",25,3,2025-06-15,759507
+"PAC-0095",11,"cauquenes","neumonia",11,25,2024-02-14,126179
+"PAC-0865",92,"constitucion","hipertension",12,12,2023-12-16,789965
+"PAC-0415",44,"talca","asma",15,13,2023-07-11,574157
+"PAC-0528",26,"molina","traumatismo",29,7,NA,306825
+"PAC-0131",42,"linares","sin dato",22,9,2023-01-16,301459
+"PAC-0467",3,"parral","sin dato",15,13,2023-05-26,202462
+"PAC-0230",44,"san javier","neumonia",22,25,2023-07-07,468607
+"PAC-0283",55,"linares","hipertension",27,10,2023-09-01,143912
+"PAC-0028",51,"talca","asma",2,22,2024-08-11,204134
+"PAC-0909",29,"san javier","hipertension",2,8,2025-01-04,502817
+"PAC-0602",26,"talca","diabetes",21,22,2024-05-03,650442
+"PAC-0848",70,"san javier","neumonia",23,15,2022-04-23,258631
+"PAC-0449",48,"talca","neumonia",6,13,NA,877213
+"PAC-0188",32,"talca","neumonia",7,9,2023-11-18,365883
+"PAC-0193",72,"curico","hipertension",30,13,2024-08-21,679865
+"PAC-0301",26,"cauquenes","neumonia",2,25,2022-01-04,468607
+"PAC-0525",62,"talca","neumonia",12,23,2023-05-20,192820
+"PAC-0808",7,"cauquenes","neumonia",18,21,2023-11-26,39496
+"PAC-0551",14,"parral","hipertension",30,16,2022-09-08,648631
+"PAC-0096",74,"parral","asma",30,23,2025-07-02,535862
+"PAC-0185",5,"talca","hipertension",17,17,2022-05-06,29166
+"PAC-0926",55,"cauquenes","diabetes",6,10,2025-12-18,519339
+"PAC-0608",16,"talca","asma",10,10,2022-06-17,381798
+"PAC-0387",86,"linares","hipertension",9,0,2025-01-05,703277
+"PAC-0453",41,"san javier","neumonia",9,10,2023-10-27,98857
+"PAC-0570",37,"talca","hipertension",9,2,NA,755589
+"PAC-0483",28,"san javier","hipertension",4,16,NA,356860
+"PAC-0780",18,"linares","asma",3,7,2025-09-09,468607
+"PAC-0486",35,"talca","sin dato",21,18,NA,93280
+"PAC-0179",60,"talca","diabetes",22,0,2022-05-08,889258
+"PAC-0317",24,"talca","diabetes",4,0,2024-09-02,591033
+"PAC-0518",58,"curico","neumonia",11,2,2024-04-24,247111
+"PAC-0205",52,"parral","traumatismo",29,6,2025-10-26,468607
+"PAC-0541",76,"sin dato","hipertension",30,18,2022-07-06,410342
+"PAC-0530",33,"sin dato","asma",29,23,2022-10-04,435043
+"PAC-0130",13,"talca","neumonia",22,22,NA,942947
+"PAC-0733",40,"molina","diabetes",22,25,2024-02-12,513501
+"PAC-0241",79,"talca","sin dato",26,2,2023-06-17,343433
+"PAC-0117",16,"cauquenes","asma",21,1,2025-01-13,524278
+"PAC-0748",38,"talca","traumatismo",15,0,2025-11-16,363077
+"PAC-0006",44,"linares","neumonia",2,15,2023-04-19,114222
+"PAC-0625",85,"constitucion","hipertension",21,1,2023-05-14,846756
+"PAC-0735",57,"san javier","asma",20,22,2022-03-26,594342
+"PAC-0746",69,"san javier","hipertension",10,20,2025-10-07,807593
+"PAC-0376",92,"talca","diabetes",4,23,2025-02-02,424286
+"PAC-0932",88,"constitucion","asma",2,13,2024-07-22,168204
+"PAC-0500",23,"constitucion","asma",4,15,2025-06-08,458991
+"PAC-0250",30,"talca","asma",6,14,2023-12-01,756691
+"PAC-0967",51,"sin dato","neumonia",13,10,2023-12-06,493799
+"PAC-0797",54,"talca","hipertension",12,13,2024-08-16,522345
+"PAC-0819",84,"molina","hipertension",3,21,2022-11-15,510579
+"PAC-0823",70,"curico","neumonia",27,23,2024-09-24,519621
+"PAC-0013",56,"cauquenes","neumonia",10,11,2024-02-15,258927
+"PAC-0020",10,"linares","diabetes",3,13,2022-04-19,857312
+"PAC-0040",36,"talca","traumatismo",16,20,2023-07-13,533296
+"PAC-0458",65,"sin dato","asma",1,0,2025-08-14,52798
+"PAC-0852",12,"constitucion","diabetes",6,2,2022-09-08,316483
+"PAC-0770",91,"parral","neumonia",12,14,2025-11-16,468607
+"PAC-0312",70,"sin dato","asma",13,2,NA,647464
+"PAC-0392",63,"talca","diabetes",9,24,2022-06-02,458250
+"PAC-0276",58,"sin dato","traumatismo",9,1,2024-09-17,60901
+"PAC-0936",23,"talca","hipertension",20,19,2024-02-22,272938
+"PAC-0923",39,"san javier","diabetes",3,19,NA,154052
+"PAC-0946",78,"molina","diabetes",4,0,2025-05-21,419520
+"PAC-0564",48,"talca","traumatismo",17,25,2023-11-17,468607
+"PAC-0246",18,"parral","traumatismo",10,6,2025-05-06,564371
+"PAC-0253",40,"cauquenes","sin dato",3,8,2022-12-12,533659
+"PAC-0263",59,"linares","asma",3,16,2024-02-08,906875
+"PAC-0523",40,"parral","diabetes",19,19,2025-01-05,468607
+"PAC-0225",6,"talca","asma",13,11,2023-08-21,468607
+"PAC-0198",21,"talca","asma",20,24,2024-02-26,140393
+"PAC-0133",79,"talca","asma",29,8,2025-02-10,388351
+"PAC-0313",75,"molina","neumonia",18,6,2024-05-24,436305
+"PAC-0606",77,"talca","asma",27,21,2024-01-23,468607
+"PAC-0443",47,"cauquenes","hipertension",26,23,2022-02-28,170150
+"PAC-0688",76,"linares","sin dato",19,10,2024-10-01,110837
+"PAC-0459",9,"talca","sin dato",8,0,2024-07-17,419350
+"PAC-0070",67,"linares","hipertension",16,24,2022-11-24,468607
+"PAC-0533",68,"parral","hipertension",20,13,NA,251422
+"PAC-0507",67,"san javier","hipertension",26,1,NA,865003
+"PAC-0883",65,"curico","hipertension",28,22,2023-11-06,251143
+"PAC-0709",17,"constitucion","asma",4,21,2024-12-28,582221
+"PAC-0673",44,"constitucion","diabetes",24,23,2025-05-14,68719
+"PAC-0034",70,"curico","neumonia",24,23,2022-05-01,450958
+"PAC-0723",40,"sin dato","hipertension",5,5,2023-12-16,339008
+"PAC-0710",50,"curico","diabetes",14,13,2023-11-08,680017
+"PAC-0083",81,"curico","diabetes",15,7,2024-03-23,167627
+"PAC-0342",77,"talca","traumatismo",16,12,NA,623646
+"PAC-0550",38,"linares","hipertension",22,13,2025-10-19,745645
+"PAC-0107",48,"cauquenes","neumonia",20,13,2024-06-08,911963
+"PAC-0372",12,"sin dato","neumonia",18,8,2025-10-06,282181
+"PAC-0291",75,"parral","sin dato",4,4,2023-06-10,306802
+"PAC-0783",66,"san javier","neumonia",13,24,2025-01-26,244403
+"PAC-0588",18,"san javier","diabetes",26,15,2023-10-08,937793
+"PAC-0531",68,"parral","neumonia",17,23,2024-02-15,553842
+"PAC-0109",22,"curico","neumonia",29,25,2024-06-17,408802
+"PAC-0021",11,"curico","traumatismo",10,15,2025-11-08,679842
+"PAC-0406",87,"linares","sin dato",2,22,2025-06-19,62806
+"PAC-0197",15,"cauquenes","sin dato",17,14,2025-04-24,306144
+"PAC-0682",42,"san javier","neumonia",11,24,NA,468607
+"PAC-0121",35,"talca","diabetes",30,21,2023-11-07,826514
+"PAC-0092",36,"talca","diabetes",7,13,2024-02-25,300707
+"PAC-0612",4,"san javier","neumonia",14,13,2024-06-21,372699
+"PAC-0326",68,"parral","diabetes",27,22,NA,95475
+"PAC-0761",5,"curico","sin dato",30,6,2025-06-14,129695
+"PAC-0788",88,"cauquenes","diabetes",16,3,2023-11-07,928592
+"PAC-0274",94,"molina","traumatismo",28,22,2023-07-12,774330
+"PAC-0275",27,"linares","traumatismo",2,25,2025-11-15,537749
+"PAC-0227",43,"cauquenes","diabetes",27,25,2025-09-19,465512
+"PAC-0560",53,"sin dato","asma",16,4,2023-09-07,411626
+"PAC-0671",15,"linares","diabetes",22,0,NA,319520
+"PAC-0772",88,"san javier","neumonia",25,10,2024-09-03,133329
+"PAC-0660",38,"sin dato","diabetes",30,6,2023-11-15,47718
+"PAC-0251",87,"linares","neumonia",2,21,2022-05-14,716361
+"PAC-0231",89,"talca","asma",8,5,2022-12-18,362382
+"PAC-0303",84,"linares","hipertension",25,25,2025-02-09,705763
+"PAC-0257",15,"talca","asma",1,21,2024-03-23,542795
+"PAC-0281",28,"cauquenes","neumonia",3,23,2022-12-14,879435
+"PAC-0536",31,"san javier","asma",5,13,2024-11-25,370741
+"PAC-0519",35,"parral","diabetes",26,23,2025-08-24,815926
+"PAC-0632",1,"cauquenes","asma",22,13,2022-11-17,412782
+"PAC-0243",2,"constitucion","asma",24,23,2022-09-03,278032
+"PAC-0160",16,"talca","diabetes",1,2,2024-11-14,860034
+"PAC-0306",90,"san javier","hipertension",9,14,2023-02-12,924402
+"PAC-0356",86,"linares","diabetes",22,11,2022-05-24,916235
+"PAC-0284",58,"talca","neumonia",8,1,NA,412849
+"PAC-0111",74,"san javier","diabetes",12,15,NA,850162
+"PAC-0232",25,"cauquenes","asma",1,23,NA,863330
+"PAC-0694",34,"talca","diabetes",22,1,2022-05-25,476582
+"PAC-0170",42,"talca","hipertension",24,10,2023-03-23,841293
+"PAC-0490",64,"curico","asma",23,0,2024-12-17,277530
+"PAC-0444",39,"sin dato","traumatismo",27,14,2024-09-21,437838
+"PAC-0327",59,"curico","asma",17,6,2023-07-18,461248
+"PAC-0747",0,"constitucion","asma",3,19,NA,143787
+"PAC-0293",81,"curico","hipertension",5,14,2023-02-08,666377
+"PAC-0782",32,"cauquenes","traumatismo",26,6,2025-07-28,299225
+"PAC-0063",6,"san javier","diabetes",20,3,NA,741713
+"PAC-0971",19,"linares","sin dato",18,2,2025-08-10,79438
+"PAC-0678",88,"curico","neumonia",9,16,NA,95741
+"PAC-0638",29,"cauquenes","neumonia",28,12,2022-10-03,275275
+"PAC-0450",15,"talca","neumonia",12,12,2025-01-14,939024
+"PAC-0398",38,"curico","hipertension",9,13,NA,835072
+"PAC-0976",64,"molina","diabetes",1,16,NA,301600
+"PAC-0542",3,"constitucion","hipertension",23,13,2022-07-12,580335
+"PAC-0855",4,"sin dato","traumatismo",25,16,2022-02-09,523172
+"PAC-0027",30,"talca","diabetes",5,23,2022-01-11,600828
+"PAC-0222",46,"curico","traumatismo",10,23,2025-09-08,466973
+"PAC-0796",55,"curico","hipertension",28,23,2025-03-12,250821
+"PAC-0704",47,"talca","traumatismo",2,21,2025-04-27,300341
+"PAC-0927",75,"constitucion","diabetes",12,10,2023-10-11,560009
+"PAC-0845",28,"san javier","neumonia",22,18,2025-12-16,838226
+"PAC-0488",60,"linares","diabetes",29,13,2023-08-22,468607
+"PAC-0861",44,"linares","neumonia",22,25,2023-11-02,209885
+"PAC-0440",84,"linares","asma",6,1,2025-07-02,80564
+"PAC-0168",5,"curico","traumatismo",22,25,2022-11-13,743634
+"PAC-0056",93,"constitucion","asma",7,12,2022-09-03,739866
+"PAC-0751",7,"parral","hipertension",6,6,NA,575615
+"PAC-0711",51,"san javier","hipertension",3,6,NA,680606
+"PAC-0888",63,"san javier","hipertension",21,4,2023-09-18,30352
+"PAC-0719",31,"molina","asma",14,7,2022-11-05,468607
+"PAC-0956",65,"san javier","neumonia",3,10,2022-12-17,33363
+"PAC-0088",82,"curico","diabetes",30,15,2023-06-13,693187
+"PAC-0668",14,"cauquenes","sin dato",5,23,2023-03-18,943813
+"PAC-0484",23,"linares","asma",3,13,2025-02-26,569727
+"PAC-0853",82,"linares","asma",11,3,2024-10-14,807132
+"PAC-0822",57,"cauquenes","diabetes",18,22,2025-08-06,495888
+"PAC-0598",31,"linares","asma",20,25,2023-01-15,32973
+"PAC-0629",94,"constitucion","neumonia",23,4,2023-03-17,865027
+"PAC-0677",69,"talca","hipertension",8,1,2024-10-15,700250
+"PAC-0087",22,"talca","diabetes",8,8,2024-06-12,369507
+"PAC-0931",40,"san javier","hipertension",10,18,2022-11-21,468607
+"PAC-0498",27,"linares","asma",18,17,2025-12-27,799889
+"PAC-0480",54,"san javier","neumonia",28,16,2023-02-13,154417
+"PAC-0728",24,"curico","neumonia",3,4,NA,458060
+"PAC-0432",88,"sin dato","neumonia",25,14,2022-06-01,768975
+"PAC-0581",84,"linares","neumonia",17,6,2024-02-24,299785
+"PAC-0397",58,"talca","asma",2,13,2022-06-12,74733
+"PAC-0476",42,"san javier","hipertension",17,2,2022-11-14,59704
+"PAC-0311",25,"san javier","asma",27,6,NA,526778
+"PAC-0289",29,"linares","neumonia",15,9,2025-03-24,204070
+"PAC-0615",31,"constitucion","hipertension",23,8,2025-04-06,218069
+"PAC-0022",48,"talca","asma",12,23,2023-02-17,38497
+"PAC-0910",17,"molina","neumonia",30,5,NA,37696
+"PAC-0428",60,"molina","hipertension",1,1,2023-04-21,468607
+"PAC-0201",75,"linares","neumonia",24,20,2023-12-28,308183
+"PAC-0239",35,"talca","hipertension",26,4,2024-07-08,321153
+"PAC-0856",90,"talca","neumonia",24,0,2025-10-14,468607
+"PAC-0417",48,"constitucion","traumatismo",5,20,2024-11-26,769044
+"PAC-0152",39,"parral","traumatismo",19,25,2023-11-17,87707
+"PAC-0035",54,"cauquenes","hipertension",8,13,2022-09-03,468607
+"PAC-0556",18,"molina","hipertension",3,24,2022-05-28,468607
+"PAC-0033",20,"molina","asma",18,19,2023-03-20,266303
+"PAC-0714",17,"talca","neumonia",19,13,2023-12-06,796532
+"PAC-0679",52,"talca","traumatismo",25,22,2024-03-06,485674
+"PAC-0408",47,"curico","hipertension",1,3,2024-12-21,893378
+"PAC-0939",82,"linares","hipertension",28,17,2023-12-27,582918
+"PAC-0089",41,"parral","traumatismo",30,18,2023-10-16,321949
+"PAC-0646",7,"linares","hipertension",1,11,2022-06-23,238346
+"PAC-0004",66,"molina","diabetes",6,24,2023-10-18,709377
+"PAC-0338",62,"talca","hipertension",10,6,2025-01-14,122466
+"PAC-0019",1,"cauquenes","diabetes",29,10,2025-07-17,732579
+"PAC-0221",29,"san javier","neumonia",21,3,2022-03-20,419346
+"PAC-0905",80,"curico","diabetes",5,4,2025-11-01,48618
+"PAC-0110",62,"cauquenes","hipertension",17,22,2022-06-04,468607
+"PAC-0377",36,"sin dato","neumonia",13,0,2024-05-26,300211
+"PAC-0228",57,"constitucion","asma",15,9,2024-01-26,468607
+"PAC-0515",61,"san javier","asma",10,2,2023-06-09,151455
+"PAC-0422",3,"linares","diabetes",2,2,2022-05-14,264010
+"PAC-0973",11,"sin dato","neumonia",7,10,2025-02-02,118841
+"PAC-0611",33,"san javier","traumatismo",17,15,2025-07-01,468607
+"PAC-0316",89,"parral","neumonia",17,16,2025-09-07,468607
+"PAC-0060",66,"talca","traumatismo",27,12,2025-02-02,615498
+"PAC-0540",68,"parral","neumonia",8,20,2022-10-10,218154
+"PAC-0943",22,"linares","neumonia",11,1,2023-04-14,864123
+"PAC-0945",80,"talca","asma",4,1,2022-01-22,883160
+"PAC-0106",12,"curico","hipertension",4,19,2024-01-06,459671
+"PAC-0380",85,"sin dato","neumonia",3,16,2022-05-25,627336
+"PAC-0252",67,"linares","asma",30,1,NA,274974
+"PAC-0806",78,"talca","diabetes",24,14,2022-07-09,667393
+"PAC-0934",84,"curico","diabetes",1,13,2022-09-17,326852
+"PAC-0345",11,"cauquenes","hipertension",17,21,NA,772649
+"PAC-0025",15,"talca","asma",22,18,2025-10-11,439248
+"PAC-0016",42,"talca","asma",20,13,2023-03-24,706454
+"PAC-0895",24,"talca","sin dato",20,12,2025-01-12,733838
+"PAC-0755",4,"san javier","hipertension",20,1,2024-03-20,56430
+"PAC-0057",91,"san javier","diabetes",12,19,2023-05-26,468607
+"PAC-0431",15,"linares","diabetes",18,7,2022-05-14,381609
+"PAC-0917",15,"linares","sin dato",22,24,2022-11-11,128927
+"PAC-0760",49,"constitucion","traumatismo",14,16,NA,166559
+"PAC-0687",9,"linares","neumonia",14,18,2025-06-08,544633
+"PAC-0653",33,"linares","diabetes",22,14,2025-10-26,608943
+"PAC-0697",57,"curico","neumonia",17,3,NA,761697
+"PAC-0367",23,"san javier","diabetes",10,25,NA,904162
+"PAC-0712",39,"talca","diabetes",21,11,2022-04-15,716537
+"PAC-0675",60,"cauquenes","hipertension",22,12,2023-07-28,783231
+"PAC-0829",90,"sin dato","traumatismo",3,21,2024-12-19,236742
+"PAC-0610",10,"constitucion","asma",12,10,NA,737675
+"PAC-0269",31,"curico","diabetes",9,5,2022-02-08,783214
+"PAC-0400",2,"linares","sin dato",8,10,2024-11-05,259049
+"PAC-0206",65,"talca","hipertension",1,23,2024-04-23,309270
+"PAC-0741",49,"san javier","diabetes",9,14,2022-03-13,128903
+"PAC-0942",58,"linares","hipertension",5,1,2024-05-09,583313
+"PAC-0921",73,"linares","asma",11,19,2025-09-05,441886
+"PAC-0583",92,"curico","traumatismo",18,14,2024-12-04,409431
+"PAC-0413",25,"linares","diabetes",29,3,2024-12-05,652989
+"PAC-0242",11,"cauquenes","sin dato",3,24,2024-04-26,750334
+"PAC-0421",58,"cauquenes","asma",6,24,2024-07-23,530061
+"PAC-0223",83,"cauquenes","asma",28,0,2023-11-07,79135
+"PAC-0928",71,"talca","hipertension",25,6,2025-08-20,932460
+"PAC-0777",47,"talca","sin dato",7,25,2025-10-04,525030
+"PAC-0695",71,"curico","asma",13,15,2025-01-03,468607
+"PAC-0951",3,"talca","hipertension",4,25,2023-12-19,415078
+"PAC-0118",43,"constitucion","hipertension",3,6,NA,443076
+"PAC-0068",33,"san javier","traumatismo",1,10,2022-06-08,392862
+"PAC-0949",37,"san javier","neumonia",15,25,2024-08-04,123570
+"PAC-0991",76,"molina","diabetes",1,20,2022-10-11,883474
+"PAC-0707",13,"sin dato","hipertension",21,13,2024-09-16,163599
+"PAC-0337",29,"sin dato","diabetes",11,24,2025-03-01,592150
+"PAC-0043",64,"talca","neumonia",15,17,2024-04-10,142594
+"PAC-0721",79,"curico","neumonia",10,14,2024-06-25,364907
+"PAC-0619",89,"constitucion","diabetes",27,19,2023-06-26,880170
+"PAC-0998",34,"talca","hipertension",10,18,2023-02-16,468607
+"PAC-0174",53,"parral","hipertension",15,25,2025-09-02,468607
+"PAC-0804",25,"san javier","hipertension",13,5,2025-08-08,231320
+"PAC-0493",65,"talca","diabetes",12,24,NA,607481
+"PAC-0920",72,"parral","traumatismo",7,5,2025-08-05,933149
+"PAC-0229",76,"linares","diabetes",3,15,NA,67505
+"PAC-0860",40,"talca","asma",1,15,2022-06-24,740115
+"PAC-0374",36,"linares","neumonia",28,6,2023-04-12,685672
+"PAC-0744",75,"san javier","hipertension",24,3,2025-12-05,499133
+"PAC-0784",20,"parral","diabetes",30,9,2024-10-09,783982
+"PAC-0794",48,"linares","traumatismo",27,17,2023-08-07,100281
+"PAC-0386",19,"constitucion","hipertension",30,12,2025-08-27,730452
+"PAC-0993",58,"cauquenes","hipertension",6,16,NA,419661
+"PAC-0992",95,"curico","hipertension",13,0,2023-02-07,550393
+"PAC-0886",67,"cauquenes","traumatismo",8,14,NA,418438
+"PAC-0002",85,"molina","diabetes",18,12,2025-08-15,468607
+"PAC-0146",92,"cauquenes","hipertension",23,3,NA,437363
+"PAC-0031",14,"sin dato","neumonia",4,20,2025-11-18,857446
+"PAC-0382",68,"curico","diabetes",13,10,2022-05-21,730461
+"PAC-0067",38,"parral","diabetes",6,9,2024-05-01,335405
+"PAC-0310",95,"talca","sin dato",25,6,2025-03-01,582354
+"PAC-0427",3,"san javier","asma",27,7,2022-03-18,121043
+"PAC-0385",87,"talca","diabetes",12,25,2022-03-05,527765
+"PAC-0502",22,"san javier","asma",19,13,2023-04-11,945719
+"PAC-0739",34,"san javier","hipertension",22,13,2025-05-05,488493
+"PAC-0627",60,"cauquenes","neumonia",27,13,2022-11-17,937192
+"PAC-0617",42,"talca","diabetes",15,18,2025-02-14,317409
+"PAC-0900",5,"molina","asma",12,14,2025-02-07,322698
+"PAC-0143",41,"talca","neumonia",2,19,2022-07-04,470209
+"PAC-0346",65,"curico","sin dato",8,13,2023-11-26,638021
+"PAC-0618",48,"talca","neumonia",17,25,2022-05-19,334045
+"PAC-0039",29,"parral","diabetes",18,13,2025-08-27,460607
+"PAC-0261",59,"san javier","neumonia",3,7,2022-12-12,48075
+"PAC-0869",70,"curico","traumatismo",4,19,2025-07-06,26787
+"PAC-0563",71,"linares","neumonia",21,25,NA,417856
+"PAC-0736",53,"molina","asma",23,22,2022-04-21,306171
+"PAC-0202",11,"curico","neumonia",3,19,2024-07-18,513370
+"PAC-0592",53,"talca","neumonia",19,13,2023-12-21,551002
+"PAC-0469",60,"linares","hipertension",6,10,NA,79530
+"PAC-0391",33,"cauquenes","asma",5,20,2023-04-18,529466
+"PAC-0595",9,"talca","asma",5,18,2023-05-22,929727
+"PAC-0776",91,"san javier","neumonia",18,2,2022-01-01,124857
+"PAC-0384",95,"linares","traumatismo",2,14,2022-02-18,764524
+"PAC-0877",78,"sin dato","traumatismo",28,25,NA,270949
+"PAC-0042",19,"cauquenes","traumatismo",7,6,2024-09-09,401138
+"PAC-0705",81,"san javier","asma",20,19,NA,764152
+"PAC-0266",14,"san javier","sin dato",11,5,2023-02-13,348010
+"PAC-0309",62,"constitucion","traumatismo",24,16,2023-08-23,748321
+"PAC-0343",62,"sin dato","traumatismo",6,0,2025-09-17,371396
+"PAC-0980",47,"sin dato","neumonia",23,8,2024-03-25,947185
+"PAC-0908",6,"san javier","neumonia",13,11,2022-03-22,111212
+"PAC-0567",48,"cauquenes","neumonia",27,3,2023-09-02,543388
+"PAC-0208",76,"sin dato","traumatismo",23,12,NA,109322
+"PAC-0658",51,"cauquenes","diabetes",27,5,2024-03-01,886093
+"PAC-0005",94,"cauquenes","asma",12,2,NA,163302
+"PAC-0975",81,"cauquenes","asma",29,18,2023-12-14,660554
+"PAC-0514",80,"linares","diabetes",5,5,2025-11-02,739824
+"PAC-0499",20,"san javier","sin dato",15,24,2025-06-14,869181
+"PAC-0837",95,"cauquenes","diabetes",14,0,2023-03-18,557918
+"PAC-0680",61,"curico","diabetes",25,17,2025-09-01,630487
+"PAC-0135",42,"san javier","diabetes",15,15,2022-02-28,592333
+"PAC-0166",93,"talca","neumonia",2,13,NA,34652
+"PAC-0912",17,"constitucion","diabetes",22,15,2025-10-20,300289
+"PAC-0620",44,"molina","diabetes",18,23,2022-02-01,912463
+"PAC-0363",2,"linares","asma",11,20,NA,236099
+"PAC-0683",83,"san javier","sin dato",8,14,2025-03-13,783240
+"PAC-0288",0,"cauquenes","neumonia",6,15,2023-02-07,811749
+"PAC-0693",53,"talca","asma",20,10,2025-08-14,395968
+"PAC-0165",31,"molina","sin dato",4,17,2025-10-23,43619
+"PAC-0795",36,"curico","traumatismo",30,3,NA,234936
+"PAC-0555",8,"san javier","asma",14,22,2022-08-23,841205
+"PAC-0462",52,"curico","asma",13,5,NA,344789
+"PAC-0989",54,"cauquenes","sin dato",11,15,2022-12-22,96277
+"PAC-0354",7,"linares","neumonia",2,6,2022-11-28,456132
+"PAC-0167",95,"sin dato","traumatismo",12,21,2024-08-26,375592
+"PAC-0962",91,"curico","diabetes",18,9,2024-10-08,288757
+"PAC-0867",61,"san javier","neumonia",8,24,2022-12-03,651627
+"PAC-0331",86,"curico","traumatismo",3,0,2023-04-23,188421
+"PAC-0872",71,"linares","neumonia",7,7,2022-03-28,528283
+"PAC-0787",36,"constitucion","neumonia",17,9,2023-12-04,146750
+"PAC-0127",83,"san javier","hipertension",18,5,2022-10-18,892464
+"PAC-0115",49,"linares","asma",28,23,2024-04-24,827772
+"PAC-0576",14,"parral","asma",23,7,2022-04-16,571462
+"PAC-0477",72,"cauquenes","traumatismo",24,23,NA,46589
+"PAC-0371",7,"cauquenes","traumatismo",29,13,2025-12-06,697428
+"PAC-0832",85,"talca","diabetes",20,2,2023-07-13,550669
+"PAC-0586",59,"san javier","neumonia",14,23,2022-05-16,862003
+"PAC-0186",35,"sin dato","neumonia",17,1,2022-08-24,405392
+"PAC-0098",35,"curico","diabetes",10,13,2022-10-07,602519
+"PAC-0828",74,"cauquenes","traumatismo",11,18,2023-01-05,468607
+"PAC-0256",53,"san javier","diabetes",8,22,2022-07-18,648557
+"PAC-0647",68,"linares","asma",29,8,2022-11-21,475222
+"PAC-0224",49,"san javier","neumonia",15,25,2023-02-21,650717
+"PAC-0158",79,"molina","sin dato",3,0,2023-12-28,228578
+"PAC-0181",49,"talca","hipertension",3,18,2022-06-25,901338
+"PAC-0321",39,"parral","neumonia",23,18,2025-06-08,667233
+"PAC-0802",6,"curico","hipertension",27,19,2022-02-20,458233
+"PAC-0180",58,"parral","neumonia",11,9,2022-08-05,490465
+"PAC-0270",28,"san javier","hipertension",23,18,2023-01-09,98186
+"PAC-0696",5,"san javier","diabetes",24,25,2022-08-19,128911
+"PAC-0838",36,"san javier","asma",15,21,2022-10-18,126521
+"PAC-0580",54,"constitucion","neumonia",3,13,2022-09-13,374846
+"PAC-0813",42,"san javier","neumonia",1,12,2024-07-17,44565
+"PAC-0702",58,"talca","hipertension",2,13,2024-06-27,71512
+"PAC-0425",61,"talca","diabetes",1,24,NA,849104
+"PAC-0352",61,"talca","hipertension",14,22,2023-08-03,49719
+"PAC-0960",28,"molina","diabetes",27,3,NA,843175
+"PAC-0734",2,"parral","asma",6,23,2023-04-18,422226
+"PAC-0319",78,"parral","diabetes",11,6,NA,248744
+"PAC-0113",75,"linares","asma",4,4,2024-01-22,247805
+"PAC-0974",28,"cauquenes","diabetes",24,6,2023-04-13,74433
+"PAC-0195",3,"talca","diabetes",27,12,2025-07-20,390070
+"PAC-0138",24,"molina","hipertension",23,2,2025-02-22,833274
+"PAC-0265",50,"san javier","traumatismo",2,21,2023-10-18,578302
+"PAC-0200",0,"parral","diabetes",10,6,2022-02-12,468607
+"PAC-0196",24,"curico","neumonia",10,10,2023-10-04,405178
+"PAC-0742",32,"molina","hipertension",10,16,2025-12-18,473096
+"PAC-0578",41,"curico","sin dato",30,22,2024-07-01,505984
+"PAC-0639",57,"curico","hipertension",18,8,2023-06-18,262808
+"PAC-0651",51,"sin dato","asma",23,24,2024-11-16,909328
+"PAC-0323",50,"curico","asma",2,15,2025-01-26,764610
+"PAC-0952",64,"linares","neumonia",13,13,2023-05-26,291872
+"PAC-0827",45,"constitucion","asma",9,4,NA,234131
+"PAC-0779",3,"linares","asma",14,16,2025-02-07,730392
+"PAC-0350",54,"curico","diabetes",27,25,2023-10-13,923157
+"PAC-0094",91,"linares","hipertension",7,21,2024-07-23,696803
+"PAC-0101",10,"cauquenes","sin dato",1,6,NA,154240
+"PAC-0233",33,"molina","traumatismo",8,12,2024-10-04,502087
+"PAC-0557",24,"parral","hipertension",21,5,2023-02-03,468607
+"PAC-0546",30,"constitucion","hipertension",28,11,2023-03-24,196556
+"PAC-0396",20,"constitucion","asma",19,13,NA,718922
+"PAC-0630",83,"cauquenes","hipertension",11,13,2025-02-19,718187
+"PAC-0368",54,"curico","asma",4,16,NA,463950
+"PAC-0410",3,"talca","asma",20,7,2023-10-17,259119
+"PAC-0176",53,"san javier","neumonia",3,4,NA,859672
+"PAC-0409",73,"san javier","hipertension",27,15,2022-08-26,564913
+"PAC-0604",36,"talca","hipertension",2,21,2025-04-12,389776
+"PAC-0007",63,"cauquenes","diabetes",20,13,2022-12-13,296433
+"PAC-0162",78,"cauquenes","traumatismo",23,2,2022-01-12,573116
+"PAC-0366",84,"cauquenes","diabetes",9,20,2023-10-02,488461
+"PAC-0156",14,"curico","hipertension",26,17,2022-07-06,468607
+"PAC-0414",36,"linares","diabetes",2,21,2025-06-10,551374
+"PAC-0501",42,"linares","sin dato",17,8,2025-01-04,264152
+"PAC-0798",14,"san javier","asma",12,2,NA,468607
+"PAC-0061",0,"san javier","asma",27,3,2022-03-23,468607
+"PAC-0219",21,"talca","sin dato",18,22,2025-07-09,574550
+"PAC-0082",20,"talca","asma",20,8,2024-02-24,561780
+"PAC-0807",94,"talca","diabetes",9,0,2024-08-27,468607
+"PAC-0358",48,"parral","traumatismo",23,21,NA,186879
+"PAC-0652",41,"constitucion","traumatismo",28,21,NA,49377
+"PAC-0120",32,"molina","neumonia",18,23,2022-06-02,700561
+"PAC-0411",41,"cauquenes","neumonia",2,13,2023-02-09,516020
+"PAC-0665",81,"cauquenes","traumatismo",13,14,2024-03-21,468607
+"PAC-0290",10,"curico","diabetes",6,23,2023-04-01,250080
+"PAC-0941",19,"linares","hipertension",20,18,2022-10-12,468607
+"PAC-0044",18,"talca","traumatismo",7,8,2023-06-06,176369
+"PAC-0141",66,"curico","hipertension",25,20,2024-08-10,862520
+"PAC-0522",78,"sin dato","neumonia",11,1,NA,259397
+"PAC-0717",69,"sin dato","neumonia",22,24,2023-05-23,312322
+"PAC-0566",56,"curico","asma",27,22,2023-08-21,76778
+"PAC-0722",36,"talca","asma",19,17,2023-08-15,213269
+"PAC-0768",32,"parral","asma",5,20,2024-12-01,867974
+"PAC-0298",17,"talca","diabetes",17,9,NA,861024
+"PAC-0333",19,"linares","traumatismo",10,18,2025-04-16,468607
+"PAC-0402",56,"talca","hipertension",3,2,2025-11-16,861431
+"PAC-0388",57,"linares","sin dato",1,7,2025-03-01,147458
+"PAC-0423",55,"sin dato","asma",9,23,2025-01-01,875779
+"PAC-0684",0,"talca","hipertension",15,11,2023-06-08,712995
+"PAC-0445",58,"talca","neumonia",13,23,2024-07-24,263654
+"PAC-0930",15,"constitucion","asma",10,22,NA,456400
+"PAC-0282",50,"parral","traumatismo",12,10,2024-09-11,577751
+"PAC-0436",58,"san javier","neumonia",27,15,2022-06-11,313034
+"PAC-0957",77,"linares","neumonia",19,22,2022-02-06,551419
+"PAC-0738",92,"linares","traumatismo",11,2,2025-08-09,279880
+"PAC-0633",23,"san javier","traumatismo",2,19,2022-11-24,97314
+"PAC-0935",7,"san javier","sin dato",18,2,2025-06-18,867761
+"PAC-0325",65,"talca","asma",13,20,2022-09-20,638699
+"PAC-0526",95,"san javier","neumonia",11,24,2025-02-21,925288
+"PAC-0884",91,"molina","sin dato",1,5,2022-03-08,468607
+"PAC-0478",13,"curico","asma",21,24,2022-04-01,735802
+"PAC-0315",33,"talca","hipertension",13,18,2023-07-07,808615
+"PAC-0609",37,"cauquenes","traumatismo",10,18,2024-03-11,63769
+"PAC-0129",48,"linares","traumatismo",24,19,2022-01-16,72014
+"PAC-0844",72,"molina","traumatismo",9,13,2022-10-20,117410
+"PAC-0786",25,"linares","diabetes",16,0,2022-10-14,547473
+"PAC-0099",44,"talca","neumonia",14,23,2022-03-14,624532
+"PAC-0894",19,"cauquenes","neumonia",3,0,2025-12-09,894113
+"PAC-0018",52,"constitucion","diabetes",19,14,2025-07-25,775957
+"PAC-0689",42,"talca","asma",1,16,2023-10-25,353971
+"PAC-0235",21,"talca","hipertension",10,21,2025-11-03,842104
+"PAC-0209",21,"cauquenes","diabetes",30,20,2023-02-24,363628
+"PAC-0364",76,"talca","neumonia",24,13,2022-12-22,699761
+"PAC-0295",46,"curico","hipertension",6,7,2024-03-06,468607
+"PAC-0916",8,"sin dato","asma",28,17,NA,775068
+"PAC-0902",75,"curico","hipertension",14,14,2023-03-12,424510
+"PAC-0517",3,"molina","hipertension",18,18,2023-09-26,908015
+"PAC-0790",64,"sin dato","neumonia",24,2,2022-12-10,904641
+"PAC-0846",56,"talca","hipertension",6,5,2022-02-27,648069
+"PAC-0631",19,"linares","hipertension",23,6,2023-01-10,524630
+"PAC-0766",29,"san javier","diabetes",20,10,2023-02-07,468607
+"PAC-0571",62,"linares","hipertension",27,16,2022-08-17,671682
+"PAC-0954",67,"linares","traumatismo",22,5,2025-01-22,669718
+"PAC-0348",49,"san javier","hipertension",8,17,2025-04-19,140821
+"PAC-0330",54,"cauquenes","neumonia",20,17,2024-10-04,626232
+"PAC-0175",24,"curico","neumonia",18,9,2023-05-16,851449
+"PAC-0725",24,"talca","neumonia",16,15,NA,748680
+"PAC-0969",57,"linares","diabetes",6,2,2022-05-02,468607
+"PAC-0055",24,"talca","diabetes",16,9,2022-08-28,662038
+"PAC-0983",32,"linares","hipertension",17,5,2022-02-07,468607
+"PAC-0302",56,"talca","hipertension",27,15,NA,206923
+"PAC-0126",37,"san javier","hipertension",2,20,2022-11-23,468607
+"PAC-0173",4,"san javier","asma",11,7,2025-02-22,940693
+"PAC-0659",6,"cauquenes","neumonia",30,13,2025-11-18,664572
+"PAC-0830",83,"talca","diabetes",23,0,2023-02-21,748096
+"PAC-0628",67,"sin dato","asma",25,21,2024-08-19,767975
+"PAC-0482",46,"cauquenes","neumonia",11,24,NA,612425
+"PAC-0915",92,"molina","diabetes",4,18,2024-07-04,912483
+"PAC-0334",70,"talca","neumonia",1,10,NA,753265
+"PAC-0468",21,"san javier","hipertension",2,7,2023-03-23,920621
+"PAC-0212",44,"linares","asma",9,25,2024-10-23,471108
+"PAC-0147",19,"sin dato","asma",5,14,2024-04-11,215367
+"PAC-0489",21,"san javier","asma",16,22,NA,677017
+"PAC-0843",18,"parral","traumatismo",4,17,2023-10-07,83542
+"PAC-0731",81,"curico","traumatismo",23,11,2025-03-01,118580
+"PAC-0824",76,"linares","hipertension",17,2,2024-08-01,365056
+"PAC-0347",78,"linares","neumonia",22,17,2024-04-21,61875
+"PAC-0979",17,"parral","asma",20,13,2023-12-21,906208
+"PAC-0236",34,"cauquenes","asma",4,8,2024-01-09,671988
+"PAC-0012",71,"talca","neumonia",1,7,2025-08-11,631670
+"PAC-0234",89,"molina","asma",16,22,NA,468607
+"PAC-0891",15,"cauquenes","hipertension",16,9,2022-09-13,468607
+"PAC-0850",22,"constitucion","hipertension",13,15,2024-12-08,501361
+"PAC-0510",71,"talca","neumonia",4,12,2025-04-19,468607
+"PAC-0596",9,"molina","asma",22,7,NA,519751
+"PAC-0268",71,"san javier","diabetes",14,4,NA,214690
+"PAC-0418",47,"curico","hipertension",4,13,2025-08-04,219644
+"PAC-0793",11,"san javier","sin dato",9,20,2024-12-28,140579
+"PAC-0051",45,"cauquenes","sin dato",27,20,2022-10-05,93870
+"PAC-0287",10,"talca","neumonia",21,0,2023-06-26,29003
+"PAC-0726",78,"cauquenes","diabetes",21,2,2025-04-13,694623
+"PAC-0273",63,"sin dato","hipertension",19,6,2024-06-07,122492
+"PAC-0183",73,"san javier","neumonia",30,6,2024-07-26,926216
+"PAC-0896",45,"linares","asma",30,3,2022-04-25,591862
+"PAC-0809",18,"cauquenes","diabetes",20,19,2025-04-03,138172
+"PAC-0259",93,"cauquenes","neumonia",27,17,2023-06-14,124482
+"PAC-0139",2,"linares","traumatismo",13,11,2022-01-06,825403
+"PAC-0226",38,"san javier","asma",21,25,2022-12-11,857697
+"PAC-0773",43,"cauquenes","diabetes",30,25,2024-08-27,490541
+"PAC-0370",10,"curico","asma",9,20,2023-01-05,73125
+"PAC-0506",31,"cauquenes","neumonia",5,18,2024-08-20,51471
+"PAC-0805",67,"san javier","traumatismo",8,0,2025-07-08,42349
+"PAC-0464",21,"parral","sin dato",11,21,2024-04-08,852113
+"PAC-0237",71,"linares","sin dato",23,19,2023-05-07,828740
+"PAC-0124",47,"cauquenes","traumatismo",5,6,2023-01-08,392407
+"PAC-0870",90,"linares","traumatismo",28,13,2023-06-28,881840
+"PAC-0153",21,"molina","diabetes",3,8,NA,901404
+"PAC-0451",70,"linares","hipertension",23,19,2024-09-04,468607
+"PAC-0863",83,"curico","neumonia",25,0,2022-10-09,909985
+"PAC-0026",64,"curico","asma",11,17,2022-03-07,279906
+"PAC-0961",78,"cauquenes","diabetes",24,9,2024-12-22,874810
+"PAC-0403",87,"talca","asma",29,2,2022-08-16,901472
+"PAC-0767",35,"talca","hipertension",29,13,2024-06-27,162776
+"PAC-0876",22,"talca","diabetes",11,14,NA,342771
+"PAC-0879",35,"talca","asma",18,22,2023-10-12,468607
+"PAC-0249",47,"constitucion","diabetes",10,7,2023-07-07,140863
+"PAC-0898",0,"talca","diabetes",27,22,2025-04-10,454411
+"PAC-0624",90,"talca","diabetes",27,14,2025-02-18,606626
+"PAC-0157",89,"sin dato","diabetes",17,0,NA,331400
+"PAC-0890",88,"curico","neumonia",1,8,2025-12-14,941755
+"PAC-0778",27,"linares","diabetes",4,23,2023-08-28,939617
+"PAC-0968",39,"curico","traumatismo",10,16,2025-09-02,552266
+"PAC-0913",3,"cauquenes","asma",4,17,2022-07-14,319051
+"PAC-0460",27,"san javier","hipertension",21,25,2022-03-23,154432
+"PAC-0010",45,"sin dato","neumonia",27,10,2024-08-13,442420
+"PAC-0308",43,"talca","hipertension",4,7,2025-09-13,707299
+"PAC-0324",48,"sin dato","traumatismo",17,1,2023-04-18,796043
+"PAC-0547",78,"linares","neumonia",4,20,2025-10-22,550321
+"PAC-0474",6,"san javier","traumatismo",4,11,2023-01-01,553327
+"PAC-0054",48,"san javier","diabetes",11,17,2024-11-05,317287
+"PAC-0831",82,"talca","traumatismo",20,11,2025-07-22,135696
+"PAC-0764",9,"molina","hipertension",2,13,2023-04-27,585160
+"PAC-0401",5,"curico","sin dato",14,5,2025-04-24,849551
+"PAC-0244",10,"molina","hipertension",20,11,NA,527844
+"PAC-0029",65,"linares","traumatismo",12,10,2022-05-22,795666
+"PAC-0492",44,"cauquenes","asma",9,11,NA,287058
+"PAC-0349",94,"talca","diabetes",1,6,2022-04-19,73587
+"PAC-0758",40,"molina","asma",24,18,2024-11-10,742111
+"PAC-0142",48,"san javier","asma",12,19,NA,527574
+"PAC-0749",18,"curico","asma",28,25,2023-08-26,468607
+"PAC-0214",43,"constitucion","asma",9,13,2025-09-23,331170
+"PAC-0650",1,"curico","neumonia",14,10,2025-01-16,326957
+"PAC-0666",34,"molina","sin dato",19,12,2022-02-05,320374
+"PAC-0833",33,"parral","neumonia",29,10,NA,468607
+"PAC-0986",42,"curico","neumonia",3,11,2025-12-18,499952
+"PAC-0192",77,"cauquenes","hipertension",25,9,NA,403126
+"PAC-0037",41,"curico","asma",19,10,2024-04-06,397141
+"PAC-0661",58,"cauquenes","neumonia",19,24,2024-08-02,330136
+"PAC-0339",45,"constitucion","hipertension",5,14,2025-01-13,316148
+"PAC-0532",58,"constitucion","traumatismo",30,12,NA,833870
+"PAC-0907",60,"molina","diabetes",20,16,2025-08-27,307212
+"PAC-0836",36,"curico","traumatismo",17,14,2024-04-13,503984
+"PAC-0785",2,"linares","diabetes",1,23,2023-03-15,712463
+"PAC-0215",20,"talca","neumonia",24,11,2025-12-11,450865
+"PAC-0455",54,"cauquenes","asma",1,18,NA,769853
+"PAC-0091",51,"cauquenes","diabetes",9,7,2023-10-25,775063
+"PAC-0144",80,"constitucion","hipertension",1,15,2022-06-09,383484
+"PAC-0136",82,"cauquenes","asma",30,17,2022-02-21,939728
+"PAC-0582",77,"talca","hipertension",18,2,2024-11-28,841484
+"PAC-0901",39,"san javier","traumatismo",10,11,2023-07-01,171687
+"PAC-0262",37,"curico","neumonia",5,21,2025-01-14,293742
+"PAC-0328",85,"talca","hipertension",21,1,2022-08-01,894669
+"PAC-0114",20,"parral","hipertension",18,5,2022-04-12,877425
+"PAC-0495",26,"talca","neumonia",24,11,NA,90530
+"PAC-0775",20,"curico","hipertension",11,14,2024-12-18,917962
+"PAC-0692",29,"san javier","asma",3,15,2023-11-22,240679
+"PAC-0137",22,"cauquenes","diabetes",8,5,2025-11-02,566826
+"PAC-0553",29,"linares","hipertension",11,6,2024-10-22,324561
+"PAC-0897",1,"curico","diabetes",2,20,2023-05-03,581322
+"PAC-0077",12,"cauquenes","diabetes",21,20,2023-12-13,110138
+"PAC-0996",37,"talca","hipertension",22,11,2022-12-01,931209
+"PAC-0987",69,"curico","diabetes",27,23,2022-04-06,468607
+"PAC-0128",75,"san javier","asma",25,14,2022-06-11,277437
+"PAC-0080",86,"curico","neumonia",11,7,2024-11-08,804215
+"PAC-0603",74,"curico","neumonia",27,17,NA,459178
+"PAC-0512",38,"parral","asma",3,21,2022-01-26,78476
+"PAC-0272",48,"sin dato","diabetes",20,8,2025-11-03,628847
+"PAC-0622",93,"curico","asma",25,15,NA,48613
+"PAC-0637",22,"san javier","diabetes",25,10,2023-10-19,89166
+"PAC-0076",81,"curico","sin dato",18,4,2024-08-05,67493
+"PAC-0997",6,"cauquenes","diabetes",19,2,2024-04-04,277219
+"PAC-0187",22,"cauquenes","diabetes",15,8,NA,698756
+"PAC-0407",42,"talca","sin dato",2,20,2024-10-10,468607
+"PAC-0727",71,"san javier","neumonia",11,7,2024-08-15,777709
+"PAC-0537",56,"san javier","neumonia",21,9,2023-04-09,860008
+"PAC-0487",56,"curico","sin dato",1,8,2024-12-10,408667
+"PAC-0154",62,"talca","traumatismo",1,17,2023-04-26,496918
+"PAC-0280",93,"parral","asma",19,0,2024-04-19,573660
+"PAC-0036",83,"talca","hipertension",22,5,2025-11-08,155487
+"PAC-0878",84,"cauquenes","neumonia",6,20,2025-02-07,418918
+"PAC-0839",30,"san javier","traumatismo",29,7,2023-05-11,742429
+"PAC-0937",42,"linares","diabetes",16,5,2025-02-25,509645
+"PAC-0820",42,"curico","traumatismo",1,15,2025-10-02,468607
+"PAC-0399",52,"linares","traumatismo",1,10,2025-09-28,227895
+"PAC-0009",87,"constitucion","hipertension",26,18,NA,176251
+"PAC-0394",1,"talca","sin dato",22,19,2025-02-03,776951
+"PAC-0463",89,"cauquenes","asma",29,10,2022-12-28,314373
+"PAC-0485",43,"cauquenes","hipertension",3,13,2022-03-24,392967
+"PAC-0277",24,"molina","hipertension",13,0,2023-06-16,464772
+"PAC-0591",10,"cauquenes","asma",8,6,2024-08-08,138861
+"PAC-0597",13,"molina","asma",22,12,2023-09-16,574712
+"PAC-0424",14,"parral","diabetes",18,5,2023-01-12,541498
+"PAC-0521",4,"talca","diabetes",7,4,2022-12-02,688620
+"PAC-0810",22,"curico","diabetes",23,5,2022-07-09,468607
+"PAC-0574",84,"curico","diabetes",20,11,2024-06-21,505146
+"PAC-0925",62,"sin dato","asma",24,0,2022-07-01,365061
+"PAC-0674",47,"talca","diabetes",19,23,2024-04-11,271397
+"PAC-0862",14,"molina","traumatismo",22,25,2022-09-04,920059
+"PAC-0817",6,"linares","traumatismo",24,24,NA,634385
+"PAC-0859",35,"talca","diabetes",15,11,2025-11-15,468607
+"PAC-0260",37,"cauquenes","hipertension",5,22,NA,468607
+"PAC-0097",19,"cauquenes","traumatismo",4,4,2023-12-06,212814
+"PAC-0958",55,"san javier","diabetes",1,15,2025-06-06,714541
+"PAC-0552",71,"cauquenes","sin dato",2,5,2023-10-04,868813
+"PAC-0207",28,"san javier","hipertension",15,8,2024-02-18,549497
+"PAC-0038",21,"curico","diabetes",7,25,2025-11-10,277273
+"PAC-0635",45,"curico","neumonia",18,15,2025-10-10,935403
+"PAC-0434",11,"parral","asma",22,21,2024-01-25,479481
+"PAC-0948",57,"curico","hipertension",23,9,2024-09-21,468607
+"PAC-0473",62,"san javier","asma",4,7,2025-02-14,776562
+"PAC-0079",57,"constitucion","diabetes",28,3,NA,468607
+"PAC-0524",54,"talca","sin dato",20,20,2025-01-21,561463
+"PAC-0151",70,"san javier","neumonia",5,12,2022-10-03,109412
+"PAC-0881",24,"linares","diabetes",12,1,2024-01-22,691576
+"PAC-0194",73,"curico","diabetes",12,7,2022-01-07,692506
+"PAC-0657",79,"parral","neumonia",7,8,NA,39631
+"PAC-0286",88,"talca","neumonia",7,17,2025-08-12,157770
+"PAC-0899",29,"curico","asma",9,8,2022-09-15,268469
+"PAC-0851",51,"curico","asma",24,14,2022-01-17,711984
+"PAC-0024",27,"linares","asma",26,19,2025-09-28,283437
+"PAC-0757",93,"talca","traumatismo",5,6,2025-10-16,31248
+"PAC-0873",23,"san javier","diabetes",26,21,2025-12-27,255098
+"PAC-0433",64,"curico","sin dato",15,3,2022-06-24,375006
+"PAC-0572",3,"talca","diabetes",8,3,2024-01-14,400428
+"PAC-0814",47,"talca","diabetes",3,2,2024-06-25,468607
+"PAC-0577",92,"linares","diabetes",27,5,2025-12-16,912569
+"PAC-0255",45,"san javier","diabetes",25,0,2025-08-01,578147
+"PAC-0889",87,"talca","neumonia",15,11,2024-07-03,274038
+"PAC-0150",24,"talca","hipertension",22,17,2024-12-08,732139
+"PAC-0322",43,"san javier","traumatismo",30,20,NA,637651
+"PAC-0045",58,"cauquenes","diabetes",17,5,2024-01-08,468607
+"PAC-0645",38,"sin dato","neumonia",14,8,2023-05-17,39121
+"PAC-0769",94,"parral","diabetes",16,8,2025-05-16,940943
+"PAC-0885",54,"sin dato","hipertension",23,14,2022-02-22,949709
+"PAC-0465",81,"linares","diabetes",29,14,2022-01-05,172336
+"PAC-0264",87,"talca","hipertension",11,12,2023-08-28,468607
+"PAC-0985",76,"linares","sin dato",14,18,2024-07-06,525028
+"PAC-0940",21,"talca","neumonia",28,2,NA,263043
+"PAC-0245",0,"parral","diabetes",28,18,2022-06-25,139330
+"PAC-0361",36,"talca","traumatismo",15,20,2023-10-26,914019
+"PAC-0023",93,"san javier","diabetes",5,6,2022-08-03,688333
+"PAC-0412",27,"parral","diabetes",11,14,2023-09-14,28530
+"PAC-0752",22,"talca","neumonia",10,12,NA,74368
+"PAC-0085",11,"talca","asma",14,18,2022-04-20,411389
+"PAC-0534",5,"talca","diabetes",22,2,2024-10-01,277417
+"PAC-0818",33,"talca","asma",22,15,2023-06-19,59196
+"PAC-0579",93,"san javier","neumonia",10,11,2022-04-01,772231
+"PAC-0182",42,"molina","hipertension",21,13,2023-10-18,707672
+"PAC-0240",48,"cauquenes","neumonia",1,9,2025-03-23,714000
+"PAC-0676",87,"curico","neumonia",28,0,2024-05-10,117183
+"PAC-0149",21,"sin dato","asma",24,20,2025-04-16,769075
+"PAC-0558",51,"talca","hipertension",22,13,2024-07-04,202024
+"PAC-0893",6,"talca","traumatismo",25,15,2023-07-11,366404
+"PAC-0278",16,"san javier","diabetes",11,24,2022-01-28,505891
+"PAC-0906",14,"cauquenes","asma",14,21,2024-06-01,553660
+"PAC-0903",41,"cauquenes","neumonia",22,11,2022-11-25,245518
+"PAC-0184",67,"curico","traumatismo",21,2,NA,453175
+"PAC-0072",69,"cauquenes","neumonia",17,15,2023-07-28,708197
+"PAC-0454",59,"molina","hipertension",16,1,2023-10-08,300030
+"PAC-0271",33,"san javier","diabetes",3,24,2022-09-14,723253
+"PAC-0970",14,"curico","neumonia",23,13,2025-12-20,129582
+"PAC-0426",95,"cauquenes","hipertension",6,25,2025-01-15,158200
+"PAC-0479",37,"parral","asma",12,3,2022-05-15,475794
+"PAC-0918",24,"molina","traumatismo",10,8,NA,569136
+"PAC-0178",86,"talca","traumatismo",20,7,2025-07-24,848800
+"PAC-0601",71,"constitucion","diabetes",13,18,2022-11-22,31731
+"PAC-0105",71,"talca","hipertension",8,3,2022-05-14,917864
+"PAC-0452",64,"curico","neumonia",11,12,2025-08-18,938582
+"PAC-0740",51,"constitucion","neumonia",29,10,2022-05-02,414841
+"PAC-0559",29,"parral","hipertension",30,24,2022-03-09,766295
+"PAC-0448",33,"sin dato","neumonia",20,10,2022-07-09,468607
+"PAC-0163",94,"talca","asma",26,24,2024-09-01,470356
+"PAC-0966",14,"cauquenes","hipertension",5,20,NA,412128
+"PAC-0584",67,"san javier","diabetes",30,5,NA,245857
+"PAC-0378",31,"talca","neumonia",22,13,2022-07-13,452195
+"PAC-0800",39,"cauquenes","neumonia",15,20,2023-10-12,468607
+"PAC-0509",71,"molina","diabetes",2,13,2022-08-06,760093
+"PAC-0159",61,"linares","hipertension",22,5,2022-11-07,57466
+"PAC-0995",73,"cauquenes","hipertension",24,13,2025-05-01,225651
+"PAC-0544",90,"san javier","hipertension",7,13,2025-12-17,687209
+"PAC-0332",8,"parral","asma",1,9,2024-01-11,100367
+"PAC-0305",11,"cauquenes","traumatismo",13,13,2023-03-21,869120
+"PAC-0729",85,"sin dato","asma",13,12,2025-12-22,772202
+"PAC-0554",86,"san javier","diabetes",22,2,2023-11-06,646949
+"PAC-0355",50,"curico","sin dato",22,3,2023-06-28,222640
+"PAC-0626",68,"san javier","asma",28,25,2025-06-06,356704
+"PAC-0835",33,"curico","neumonia",28,15,NA,679080
+"PAC-0093",32,"curico","asma",11,3,2024-03-13,397846
+"PAC-0125",64,"linares","asma",25,22,2024-07-09,439580
+"PAC-0254",29,"molina","diabetes",13,19,2025-10-04,332969
+"PAC-0655",65,"cauquenes","diabetes",29,25,2024-06-14,468607
+"PAC-0737",37,"molina","diabetes",29,13,2022-03-19,162895
+"PAC-0362",65,"molina","hipertension",16,6,2025-06-04,70297
+"PAC-0046",79,"linares","hipertension",30,19,2022-07-01,35581
+"PAC-0395",84,"molina","asma",20,15,2023-01-15,31879
+"PAC-0587",46,"san javier","neumonia",3,1,2025-08-22,503362
+"PAC-0607",88,"curico","diabetes",11,17,NA,630537
+"PAC-0640",39,"curico","diabetes",1,17,2023-08-01,863355
+"PAC-0847",41,"parral","diabetes",30,3,2024-03-20,891694
+"PAC-0858",89,"molina","asma",14,23,2022-11-01,438999
+"PAC-0649",1,"talca","hipertension",7,18,2024-04-14,431876
+"PAC-0548",40,"linares","sin dato",22,13,2025-03-12,420554
+"PAC-0643",50,"curico","asma",9,17,2023-10-23,863965
+"PAC-0155",11,"curico","asma",19,25,2024-11-21,149736
+"PAC-0404",61,"sin dato","traumatismo",19,6,2025-02-11,468607
+"PAC-0539",63,"san javier","asma",10,11,2022-07-12,621920
+"PAC-0999",77,"curico","sin dato",5,2,2024-08-16,891143
+"PAC-0977",91,"san javier","neumonia",29,25,2025-12-20,468607
+"PAC-0634",41,"talca","diabetes",25,16,2025-03-14,402391
+"PAC-0781",89,"san javier","hipertension",12,3,2022-02-02,468607
+"PAC-0914",82,"parral","traumatismo",8,18,NA,55336
+"PAC-0701",81,"cauquenes","diabetes",24,17,2022-02-18,895524
+"PAC-0815",75,"linares","sin dato",2,1,2025-07-17,386990
+"PAC-0360",25,"curico","asma",13,15,2023-06-05,671298
+"PAC-0494",60,"talca","hipertension",12,13,2022-09-25,901633
+"PAC-0511",39,"talca","hipertension",10,17,NA,149196

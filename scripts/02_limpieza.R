@@ -1,81 +1,63 @@
-# 0. Limpiar memoria
-rm(list = ls())
+# 02 - limpieza (Amanda Caceres, ajustes de Benjamin Cifuentes)
 
-library(dplyr)
+datos <- read.csv("data/raw/pacientes.csv")
+filas_inicio <- nrow(datos)
 
-# Cargar dataset (ruta relativa a la carpeta del proyecto)
-df <- read.csv("data/raw/pacientes.csv", header = TRUE, stringsAsFactors = FALSE, fileEncoding = "UTF-8")
-df <- as.data.frame(df)
+# duplicados: primero filas completas, despues el mismo id
+datos <- datos[!duplicated(datos), ]
+cat("sin duplicados exactos:", nrow(datos), "filas\n")
+datos <- datos[!duplicated(datos$id_paciente), ]
+cat("sin id repetidos:", nrow(datos), "filas\n")
 
-cat("\n--- 1. DIAGNÓSTICO INICIAL ---\n")
-cat("Filas iniciales:", nrow(df), " | Columnas:", ncol(df), "\n")
-print(names(df))
+# Tipos: se quita " años" y " CLP" antes de pasar a numero
+vacios_edad <- sum(datos$edad == "")
+datos$edad <- as.numeric(gsub(" años", "", datos$edad))
+datos$costo_atencion <- as.numeric(gsub(" CLP", "", datos$costo_atencion))
+# los NA de edad deben ser solo los que venian vacios, si no hubo error al convertir
+cat("NA en edad:", sum(is.na(datos$edad)), "| vacios que tenia:", vacios_edad, "\n")
 
-# 1. Tratamiento de duplicados
-df_limpio <- df %>%
-  distinct() %>%
-  distinct(id_paciente, .keep_all = TRUE)
+# textos: sin espacios, en minuscula y sin tildes
+datos$comuna <- tolower(trimws(datos$comuna))
+datos$comuna <- gsub("ó", "o", datos$comuna)
+datos$diagnostico_principal <- tolower(trimws(datos$diagnostico_principal))
+datos$diagnostico_principal <- gsub("ó", "o", datos$diagnostico_principal)
+datos$diagnostico_principal <- gsub("í", "i", datos$diagnostico_principal)
+# los vacios quedan como "sin dato", no se inventa la comuna ni el diagnostico
+datos$comuna[datos$comuna == ""] <- "sin dato"
+datos$diagnostico_principal[datos$diagnostico_principal == ""] <- "sin dato"
+datos$comuna <- as.factor(datos$comuna)
+datos$diagnostico_principal <- as.factor(datos$diagnostico_principal)
+levels(datos$comuna)
+levels(datos$diagnostico_principal)
 
-cat("Filas tras eliminar duplicados:", nrow(df_limpio), "\n")
+# Fechas: se leen los dos formatos y se juntan
+f1 <- as.Date(datos$fecha_ultima_atencion, format = "%Y-%m-%d")
+f2 <- as.Date(datos$fecha_ultima_atencion, format = "%d/%m/%Y")
+f1[is.na(f1)] <- f2[is.na(f1)]
+datos$fecha_ultima_atencion <- f1
+# una fecha futura es un error de digitacion, queda NA
+datos$fecha_ultima_atencion[datos$fecha_ultima_atencion > Sys.Date()] <- NA
+cat("fechas NA (vacias, invalidas o futuras):", sum(is.na(datos$fecha_ultima_atencion)), "\n")
 
-# 2. Limpieza y transformación con dplyr
-df_modif <- df_limpio %>%
-  mutate(
-    id_paciente = as.character(id_paciente),
-    edad = as.numeric(edad),
-    costo_atencion = as.numeric(gsub(",", ".", as.character(costo_atencion))),
-    dias_hospitalizacion = as.numeric(dias_hospitalizacion),
-    
-    # Normalizar comuna (minúsculas, sin espacios y unificando tildes)
-    comuna = tolower(trimws(as.character(comuna))),
-    comuna = iconv(comuna, from = "UTF-8", to = "ASCII//TRANSLIT"),
-    comuna = as.factor(comuna),
-    
-    # Limpiar diagnostico_principal
-    diagnostico_principal = trimws(tolower(as.character(diagnostico_principal))),
-    diagnostico_principal = ifelse(diagnostico_principal == "neumonia", "neumonía", diagnostico_principal),
-    diagnostico_principal = as.factor(na_if(diagnostico_principal, "")),
-    
-    # Validar y convertir fecha_ultima_atencion
-    fecha_ultima_atencion = as.Date(fecha_ultima_atencion, format = "%Y-%m-%d"),
-    # Fechas futuras no son válidas: se marcan como NA
-    fecha_ultima_atencion = if_else(fecha_ultima_atencion > Sys.Date(), as.Date(NA), fecha_ultima_atencion)
-  ) %>%
-  # validación: edad lógica, costos no negativos y comuna no vacía
-  filter(
-    !is.na(edad) & edad >= 0 & edad <= 120,
-    !is.na(costo_atencion) & costo_atencion >= 0,
-    !is.na(comuna) & comuna != ""
-  )
+# rangos: edad fuera de 0-120 y costos negativos son errores, pasan a NA
+cat("edades fuera de rango:", sum(datos$edad < 0 | datos$edad > 120, na.rm = TRUE),
+    "| costos negativos:", sum(datos$costo_atencion < 0, na.rm = TRUE), "\n")
+datos$edad[datos$edad < 0 | datos$edad > 120] <- NA
+datos$costo_atencion[datos$costo_atencion < 0] <- NA
 
-cat("Filas finales tras filtros de limpieza:", nrow(df_modif), "\n")
+# NA:
+# - edad: se eliminan las filas, sin edad no hay grupo etario
+# - costo y dias: se imputan con la mediana, que no la mueven los extremos
+# - fecha: se conserva el NA, inventar una fecha seria peor
+sin_edad <- sum(is.na(datos$edad))
+cat("filas sin edad:", sin_edad, "(", round(sin_edad / nrow(datos) * 100, 1), "% )\n")
+datos <- datos[!is.na(datos$edad), ]
+cat("costos NA imputados:", sum(is.na(datos$costo_atencion)),
+    "| dias NA imputados:", sum(is.na(datos$dias_hospitalizacion)), "\n")
+datos$costo_atencion[is.na(datos$costo_atencion)] <- median(datos$costo_atencion, na.rm = TRUE)
+datos$dias_hospitalizacion[is.na(datos$dias_hospitalizacion)] <- median(datos$dias_hospitalizacion, na.rm = TRUE)
 
-# 3. Generar el resumen final de decisiones
-resumen_decisiones <- df_modif %>%
-  mutate(
-    grupo_etario = case_when(
-      edad < 18 ~ "Menor de edad",
-      edad < 65 ~ "Adulto",
-      TRUE ~ "Adulto mayor"
-    )
-  ) %>%
-  group_by(comuna, grupo_etario) %>%
-  summarise(
-    total_pacientes = n(),
-    promedio_hospitalizacion = mean(dias_hospitalizacion, na.rm = TRUE),
-    mediana_hospitalizacion = median(dias_hospitalizacion, na.rm = TRUE),
-    desv_est_hospitalizacion = sd(dias_hospitalizacion, na.rm = TRUE),
-    costo_promedio = mean(costo_atencion, na.rm = TRUE),
-    min_hospitalizacion = min(dias_hospitalizacion, na.rm = TRUE),
-    max_hospitalizacion = max(dias_hospitalizacion, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  arrange(comuna, grupo_etario)
-
-
-cat("\n--- TABLA RESULTANTE --- \n")
-print(resumen_decisiones)
-
-
-write.csv2(df_modif, "pacientes_limpio.csv", row.names = FALSE)
-cat("\n¡Archivo 'pacientes_limpio.csv' exportado con éxito!\n")
+# resultado
+cat("filas:", filas_inicio, "->", nrow(datos), "\n")
+colSums(is.na(datos))
+write.csv(datos, "data/processed/pacientes_limpio.csv", row.names = FALSE)
