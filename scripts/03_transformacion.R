@@ -1,4 +1,4 @@
-# transformacion y normalizacion - Abraham Grundt
+# transformacion y normalizacion
 
 library(dplyr)
 

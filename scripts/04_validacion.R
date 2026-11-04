@@ -1,4 +1,4 @@
-# validacion final - Benjamin Cifuentes
+# validacion final
 
 original <- read.csv("data/raw/pacientes.csv")
 final <- read.csv("data/processed/pacientes_transformado.csv")

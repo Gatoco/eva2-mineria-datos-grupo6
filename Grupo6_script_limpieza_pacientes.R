@@ -5,7 +5,7 @@
 
 
 # ==================================================================
-# diagnostico - Benjamin Vidal
+# diagnostico inicial
 # aqui solo revisamos los datos, no se modifica nada
 
 # leer el csv
@@ -89,7 +89,7 @@ hallazgos <- data.frame(
 hallazgos
 
 # ==================================================================
-# limpieza - Amanda Caceres
+# limpieza de datos
 
 datos <- read.csv("data/raw/pacientes.csv")
 filas_inicio <- nrow(datos)
@@ -154,7 +154,7 @@ colSums(is.na(datos))
 write.csv(datos, "data/processed/pacientes_limpio.csv", row.names = FALSE)
 
 # ==================================================================
-# transformacion y normalizacion - Abraham Grundt
+# transformacion y normalizacion
 
 library(dplyr)
 
@@ -212,7 +212,7 @@ write.csv(transformado, "data/processed/pacientes_transformado.csv", row.names =
 write.csv(resumen, "data/processed/resumen_comuna_grupo.csv", row.names = FALSE)
 
 # ==================================================================
-# validacion final - Benjamin Cifuentes
+# validacion final
 
 original <- read.csv("data/raw/pacientes.csv")
 final <- read.csv("data/processed/pacientes_transformado.csv")

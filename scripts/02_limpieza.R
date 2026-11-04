@@ -1,4 +1,4 @@
-# limpieza - Amanda Caceres
+# limpieza de datos
 
 datos <- read.csv("data/raw/pacientes.csv")
 filas_inicio <- nrow(datos)

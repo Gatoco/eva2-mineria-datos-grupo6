@@ -1,4 +1,4 @@
-# diagnostico - Benjamin Vidal
+# diagnostico inicial
 # aqui solo revisamos los datos, no se modifica nada
 
 # leer el csv
