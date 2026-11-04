@@ -1,22 +1,22 @@
-# 03 - transformacion y normalizacion (Abraham Grundt, ajustes de Benjamin Cifuentes)
+# transformacion y normalizacion - Abraham Grundt
 
 library(dplyr)
 
 datos <- read.csv("data/processed/pacientes_limpio.csv")
 
-# estadistica basica del costo antes de normalizar
+# como esta el costo antes de normalizar
 summary(datos$costo_atencion)
 cat("sd costo:", round(sd(datos$costo_atencion)), "\n")
 
-# atipicos con el rango intercuartilico (1.5 * IQR)
+# Atipicos con IQR (1.5 * IQR)
 q1 <- quantile(datos$costo_atencion, 0.25)
 q3 <- quantile(datos$costo_atencion, 0.75)
 lim_inf <- q1 - 1.5 * IQR(datos$costo_atencion)
 lim_sup <- q3 + 1.5 * IQR(datos$costo_atencion)
 cat("atipicos en costo:", sum(datos$costo_atencion < lim_inf | datos$costo_atencion > lim_sup), "\n")
 
-# pipeline: filtrar, crear variables, elegir columnas y ordenar
-# se normaliza despues de revisar atipicos, si no los extremos deforman la escala
+# Pipeline con dplyr
+# normalizamos despues de ver los atipicos, sino los extremos desordenan todo
 transformado <- datos %>%
   filter(edad >= 0 & edad <= 120) %>%
   mutate(
@@ -34,12 +34,12 @@ transformado <- datos %>%
 
 table(transformado$grupo_etario)
 
-# Revisar la variable normalizada
+# revisar que costo_std quedo bien
 class(transformado$costo_std)
 range(transformado$costo_std)
 cat("media:", round(mean(transformado$costo_std), 2), "| sd:", round(sd(transformado$costo_std), 2), "\n")
 
-# resumen por comuna y grupo etario, sirve para planificar camas y recursos
+# Resumen por comuna y grupo etario, para ver donde se necesitan mas camas
 resumen <- transformado %>%
   group_by(comuna, grupo_etario) %>%
   summarise(
